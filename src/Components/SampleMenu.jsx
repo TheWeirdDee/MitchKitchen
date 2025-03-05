@@ -6,11 +6,10 @@ export default function SampleMenu() {
       <div className="bg-green-900 text-white py-12 px-6 md:px-16 min-h-screen flex flex-col justify-center items-center">
         <h2 className="text-center text-3xl md:text-4xl font-bold inline-block mb-8 mx-auto pb-2 relative">
           SAMPLE MENU
-          <span className="absolute md:left-70 left-55 top-1/2 transform -translate-y-1/2 w-1/2 h-1 bg-yellow-500"></span>
-          <span className="absolute md:right-70 right-55 top-1/2 transform -translate-y-1/2 w-1/2 h-1 bg-yellow-500"></span>
+          <span className="absolute md:left-70 left-55 top-1/2 transform -translate-y-1/2 w-1/4 md:w-1/3 h-1 bg-yellow-500"></span>
+          <span className="absolute md:right-70 right-55 top-1/2 transform -translate-y-1/2 w-1/4 md:w-1/3 h-1 bg-yellow-500"></span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center w-full max-w-4xl">
-          {/* Starter Section */}
           <div>
           <img src={skewer} alt="Skewer" className="w-30 h-30 rounded-lg mx-auto" />
             <h3 className="text-xl md:text-2xl font-bold text-[#EFCFA0] mt-8">STARTER</h3>
