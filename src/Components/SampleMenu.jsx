@@ -4,7 +4,7 @@ import panacota from "../assets/panacota.jpg";
 export default function SampleMenu() {
     return (
       <div className="bg-green-900 text-white py-12 px-6 md:px-16 min-h-screen flex flex-col justify-center items-center">
-        <h2 className="text-center text-3xl md:text-4xl font-bold inline-block mb-8 mx-auto pb-2 relative">
+        <h2 className="text-center text-3xl md:text-4xl bottom-20 md:bottom-5 font-bold inline-block mb-8 mx-auto pb-2 relative">
           SAMPLE MENU
           <span className="absolute md:left-70 left-55 top-1/2 transform -translate-y-1/2 w-1/4 md:w-1/3 h-1 bg-yellow-500"></span>
           <span className="absolute md:right-70 right-55 top-1/2 transform -translate-y-1/2 w-1/4 md:w-1/3 h-1 bg-yellow-500"></span>
