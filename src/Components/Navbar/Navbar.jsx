@@ -71,7 +71,7 @@ const Navbar = () => {
             About Us
           </NavLink>
         </li>
-        <li className="py-3 relative">
+        <li className="py-3 hover:text-white relative">
           <NavLink to='/contact' className='navLink' activeClassName='active' onClick={handleNavLinkClick}>
             Contact Us
           </NavLink>

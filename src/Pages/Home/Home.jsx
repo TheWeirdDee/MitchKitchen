@@ -1,7 +1,9 @@
 import React from "react";
 import headerImage from "../../assets/headerImage.png";
 import SampleMenu from '../../Components/SampleMenu';
-
+import CustomerReview from '../../Components/CustomerReview';
+import sectionOne from "../../assets/sectionOne.jpg";
+import menuimg from "../../assets/menuimg.jpg";
 const Home = () => {
   return (
      <div>
@@ -25,7 +27,20 @@ const Home = () => {
         OUR STORY
       </button>
     </div>
+    <div>
+    <img
+  src={sectionOne}
+  alt="Sample Image"
+  className="w-full max-h-[300px] object-cover"
+/>
+
+    </div>
     <SampleMenu />
+    <div>
+      <img src={menuimg} alt="Menu Image" 
+      className="w-full max-h-[300px] object-cover"/>
+    </div>
+    <CustomerReview />
      </div>
   );
 };
