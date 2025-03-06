@@ -9,7 +9,7 @@ const ContactSection = () => {
       <div className="relative flex justify-center items-center">
         <FaHeart className="text-white heart-icon" />
          
-        <h2 className="textt absolute text-white text-2xl md:text-5xl font-bold text-center">
+        <h2 className="textt absolute text-white text-4xl md:text-5xl font-bold text-center">
           WE WOULD LOVE <br /> TO HEAR FROM YOU
         </h2>
       </div>
