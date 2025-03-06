@@ -29,15 +29,16 @@ const CustomerReview = () => {
     autoplay: true,
     autoplaySpeed: 2000,
     pauseOnHover: false,
+    arrows: false, 
     responsive: [
       {
-        breakpoint: 1024, // Large screens
+        breakpoint: 1024,  
         settings: {
           slidesToShow: 2,
         },
       },
       {
-        breakpoint: 768, // Medium screens
+        breakpoint: 768,  
         settings: {
           slidesToShow: 1,
         },
@@ -46,50 +47,60 @@ const CustomerReview = () => {
   };
 
   return (
-    <div className="bg-green-900 text-white py-12 px-6">
-      <h2 className="text-center text-3xl font-bold mb-6 relative ">CUSTOMER REVIEWS
-        <span className="absolute md:left-0 left-0 top-1/2 transform -translate-y-1/2 w-1/8 md:w-1/3 h-1 bg-yellow-500"></span>
-        {/* Bottom line */}
-        <span className="absolute md:right-0 right-5 top-1/2 transform -translate-y-1/2 w-1/10 md:w-1/3 h-1 bg-yellow-500"></span>
-      </h2>
-      <div className="max-w-6xl mx-auto">
-  <Slider {...settings}>
-    {reviews.map((review, index) => (
-      <div key={index} className="p-4">
-        <div className="bg-yellow-500 text-white p-6 rounded-lg shadow-lg relative h-64" 
-             style={{
-               textAlign: 'left',
-               backgroundColor: '#b8860b',
-               color: 'white',
-               padding: '20px',
-               borderRadius: '20px',
-               width: '350px',
-               height: 'fit-content',
-               margin: '15px',
-               position: 'relative',
-               boxShadow: '10px -2px 1px #5e3a0a',
-               maxHeight: '400px',
-               overflow: 'hidden',
-               fontSize: '14px'
-             }}>
-          <div className="absolute top-0 left-0 w-90 h-full bg-brown-900 rounded-lg -z-10 translate-x-2 translate-y-2"></div>
-          <div className="flex mb-2">
-            {Array(review.rating)
-              .fill("★")
-              .map((star, i) => (
-                <span key={i} className="text-green-900 text-lg">
-                  {star}
-                </span>
-              ))}
-          </div>
-          <p className="text-lg text-justify">{review.text}</p>
-        </div>
-      </div>
-    ))}
-  </Slider>
-</div>
+<div>
+<div className="bg-green-900 text-white py-12 px-6">
+    <h2 className="text-center text-3xl font-bold mb-6 relative">
+      CUSTOMER REVIEWS
+      <span className="absolute left-2 top-1/2 transform -translate-y-1/2 w-1/9 sm:w-1/3 md:w-1/4 lg:w-1/3 h-1 bg-yellow-500"></span>
+      <span className="absolute right-0 top-1/2 transform -translate-y-1/2 w-1/8 sm:w-1/3 md:w-1/4 lg:w-1/3 h-1 bg-yellow-500"></span>
+    </h2>
+    <div className="max-w-6xl mx-auto">
+      <Slider {...settings}>
+        {reviews.map((review, index) => (
+          <div key={index} className="p-4 ">
+            <div className="text-white p-6 rounded-lg shadow-lg relative h-64"
+                 style={{
+                        textAlign: 'justify',
+                        backgroundColor: '#b8860b',
+                        color: 'white',  
+                        padding: '1px 1px',
+                        borderRadius: '20px',
+                        width: '350px',  
+                        maxWidth: '90%',  
+                        height: '260px',   
+                        margin: 'auto',
+                        position: 'relative',
+                        boxShadow: '10px -2px 1px #5e3a0a',
+                        maxHeight: '400px',
+                        overflow: 'hidden',
+                      }}
+                      >
+              <div className="absolute top-0 left-0 w-9  h-full bg-brown-100 rounded-lg -z-10 translate-x-2 translate-y-2"></div>
+              <div className="flex mb-2 ml-3">
+                {Array(review.rating)
+                  .fill("★")
+                  .map((star, i) => (
+                    <span key={i} className="text-green-900 text-lg">
+                      {star}
+                    </span>
+                  ))}
+              </div>
+              <p 
+  className="text-lg  text-justify font-bold  px-8 " 
+  style={{ lineHeight: "1.2", wordSpacing: "0px" }}
+>
+  {review.text}
+</p>
 
+
+            </div>
+          </div>
+        ))}
+      </Slider>
     </div>
+  </div>
+</div>
+  
   );
 };
 
