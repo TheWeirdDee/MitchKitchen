@@ -1,6 +1,7 @@
 import React from "react";
 import headerImage from "../../assets/headerImage.png";
 import SampleMenu from '../../Components/SampleMenu';
+import EventCard from '../../Components/EventCard';
 import CustomerReview from '../../Components/CustomerReview';
 import sectionOne from "../../assets/sectionOne.jpg";
 import foodtray from "../../assets/foodtray.jpg";
@@ -9,7 +10,7 @@ const Home = () => {
   return (
      <div>
       <div className="relative w-full h-screen bg-green-900 flex flex-col items-center justify-center overflow-hidden">
-      {/* Image Container */}
+      
       <div className="relative md:bottom-0 bottom-15 md:bottom-0 flex justify-center">
         <img
           src={headerImage}
@@ -51,7 +52,7 @@ const Home = () => {
   />
   <div className="absolute inset-0 bg-black opacity-50"></div>
 </div>
-
+    <EventCard />
      </div>
   );
 };
