@@ -49,10 +49,10 @@ const CustomerReview = () => {
   return (
 <div>
 <div className="bg-green-900 text-white py-12 px-6">
-    <h2 className="text-center text-3xl font-bold mb-6 relative">
+    <h2 className="text-center text-2xl md:text-3xl sm:text-2xl font-bold mb-6 relative">
       CUSTOMER REVIEWS
-      <span className="absolute left-2 top-1/2 transform -translate-y-1/2 w-1/9 sm:w-1/3 md:w-1/4 lg:w-1/3 h-1 bg-yellow-500"></span>
-      <span className="absolute right-0 top-1/2 transform -translate-y-1/2 w-1/8 sm:w-1/3 md:w-1/4 lg:w-1/3 h-1 bg-yellow-500"></span>
+      <span className="absolute left-2 top-1/2 transform -translate-y-1/2 w-1/6 sm:w-1/4 md:w-1/4 lg:w-1/3 h-1 bg-yellow-500"></span>
+      <span className="absolute right-0 top-1/2 transform -translate-y-1/2 w-1/6 sm:w-1/4 md:w-1/4 lg:w-1/3 h-1 bg-yellow-500"></span>
     </h2>
     <div className="max-w-6xl mx-auto">
       <Slider {...settings}>
