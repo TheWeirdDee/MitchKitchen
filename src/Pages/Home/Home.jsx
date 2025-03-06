@@ -2,10 +2,12 @@ import React from "react";
 import headerImage from "../../assets/headerImage.png";
 import SampleMenu from '../../Components/SampleMenu';
 import EventCard from '../../Components/EventCard';
+import ContactSection from '../../Components/ContactSection';
 import CustomerReview from '../../Components/CustomerReview';
 import sectionOne from "../../assets/sectionOne.jpg";
 import foodtray from "../../assets/foodtray.jpg";
 import menuimg from "../../assets/menuimg.jpg";
+import Soup from "../../assets/Soup.jpg";
 const Home = () => {
   return (
      <div>
@@ -53,6 +55,16 @@ const Home = () => {
   <div className="absolute inset-0 bg-black opacity-50"></div>
 </div>
     <EventCard />
+  
+  <div className="relative w-full max-h-[300px]">
+  <img
+    src={Soup}
+    alt="Soup Tray"
+    className="w-full max-h-[300px] object-cover"
+  />
+  <div className="absolute inset-0 bg-black opacity-50"></div>
+</div>
+<ContactSection />
      </div>
   );
 };
