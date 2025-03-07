@@ -60,14 +60,15 @@ const CustomerReview = () => {
           <div key={index} className="p-4 ">
             <div className="text-white p-6 rounded-lg shadow-lg relative h-64"
                  style={{
-                        textAlign: 'justify',
+                        textAlign: 'left',
                         backgroundColor: '#b8860b',
                         color: 'white',  
-                        padding: '1px 1px',
+                        // hyphens: "auto",
+                        padding: '1px 9px',
                         borderRadius: '20px',
-                        width: '350px',  
+                        width: '300px',  
                         maxWidth: '90%',  
-                        height: '260px',   
+                        height: '230px',   
                         margin: 'auto',
                         position: 'relative',
                         boxShadow: '10px -2px 1px #5e3a0a',
@@ -80,14 +81,14 @@ const CustomerReview = () => {
                 {Array(review.rating)
                   .fill("★")
                   .map((star, i) => (
-                    <span key={i} className="text-green-900 text-lg">
+                    <span key={i} className="text-green-900 mt-2 text-lg">
                       {star}
                     </span>
                   ))}
               </div>
               <p 
-  className="text-lg  text-justify font-bold  px-8 " 
-  style={{ lineHeight: "1.2", wordSpacing: "0px" }}
+  className="text-lg  whitespace-normal font-bold  px-8 " 
+  style={{ lineHeight: "1.2", wordSpacing: "5px" }}
 >
   {review.text}
 </p>

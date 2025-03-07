@@ -20,28 +20,45 @@ const Navbar = () => {
 
       {/* Desktop Menu */}
       <ul className="hidden md:flex space-x-8 text-sm uppercase">
-        <li className="hover:text-white">
-          <NavLink exact to='/' className='navLink' activeClassName='active'>
+        <li>
+          <NavLink 
+            exact to="/" 
+            className={({ isActive }) => 
+              `navLink hover:text-white ${isActive ? "border-b-2 border-[#d4af7a]" : ""}`
+            }
+          >
             Home
           </NavLink>
         </li>
-        <li className="hover:text-white">
-          <NavLink exact to='/gallery' className='navLink' activeClassName='active'>
+        <li>
+          <NavLink 
+            exact to="/gallery" 
+            className={({ isActive }) => 
+              `navLink hover:text-white ${isActive ? "border-b-2 border-[#d4af7a]" : ""}`
+            }
+          >
             Gallery
           </NavLink>
         </li>
-        <li className="hover:text-white">
-          <NavLink to='/about' className='navLink' activeClassName='active'>
+        <li>
+          <NavLink 
+            exact to="/about" 
+            className={({ isActive }) => 
+              `navLink hover:text-white ${isActive ? "border-b-2 border-[#d4af7a]" : ""}`
+            }
+          >
             About Us
           </NavLink>
         </li>
-        <li className="relative">
-          <span className="hover:text-white">
-            <NavLink exact to='/contact' className='navLink' activeClassName='active'>
-              Contact Us
-            </NavLink>
-          </span>
-          <div className="absolute left-0 w-full h-[2px] bg-white"></div>
+        <li>
+          <NavLink 
+            exact to="/contact" 
+            className={({ isActive }) => 
+              `navLink hover:text-white ${isActive ? "border-b-2 border-[#d4af7a]" : ""}`
+            }
+          >
+            Contact Us
+          </NavLink>
         </li>
       </ul>
 
@@ -56,23 +73,47 @@ const Navbar = () => {
           isOpen ? "translate-x-0" : "-translate-x-full"
         } md:hidden`}
       >
-        <li className="py-3 hover:text-white">
-          <NavLink to='/' className='navLink' activeClassName='active' onClick={handleNavLinkClick}>
+        <li className="py-3">
+          <NavLink 
+            exact to="/" 
+            className={({ isActive }) => 
+              `navLink hover:text-white ${isActive ? "border-b-2 border-[#d4af7a]" : ""}`
+            }
+            onClick={handleNavLinkClick}
+          >
             Home
           </NavLink>
         </li>
-        <li className="py-3 hover:text-white">
-          <NavLink to='/gallery' className='navLink' activeClassName='active' onClick={handleNavLinkClick}>
+        <li className="py-3">
+          <NavLink 
+            exact to="/gallery" 
+            className={({ isActive }) => 
+              `navLink hover:text-white ${isActive ? "border-b-2 border-[#d4af7a]" : ""}`
+            }
+            onClick={handleNavLinkClick}
+          >
             Gallery
           </NavLink>
         </li>
-        <li className="py-3 hover:text-white">
-          <NavLink to='/about' className='navLink' activeClassName='active' onClick={handleNavLinkClick}>
+        <li className="py-3">
+          <NavLink 
+            exact to="/about" 
+            className={({ isActive }) => 
+              `navLink hover:text-white ${isActive ? "border-b-2 border-[#d4af7a]" : ""}`
+            }
+            onClick={handleNavLinkClick}
+          >
             About Us
           </NavLink>
         </li>
-        <li className="py-3 hover:text-white relative">
-          <NavLink to='/contact' className='navLink' activeClassName='active' onClick={handleNavLinkClick}>
+        <li className="py-3">
+          <NavLink 
+            exact to="/contact" 
+            className={({ isActive }) => 
+              `navLink hover:text-white ${isActive ? "border-b-2 border-[#d4af7a]" : ""}`
+            }
+            onClick={handleNavLinkClick}
+          >
             Contact Us
           </NavLink>
         </li>

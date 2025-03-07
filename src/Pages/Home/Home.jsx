@@ -26,11 +26,14 @@ const Home = () => {
       </div>
 
        
-      <button className="px-6 py-2 bg-[#3D251E]
+      <button className="px-6 py-2 bg-[#3D251E] md:mb-15 mb-0
       text-yellow-400 text-lg font-semibold rounded-lg shadow-md hover:bg-opacity-90">
         OUR STORY
       </button>
     </div>
+
+
+    {/* Sections */}
     <div className="relative w-full max-h-[300px]">
     <img
   src={sectionOne}
