@@ -13,37 +13,43 @@ const Home = () => {
      <div>
       <div className="relative w-full h-screen bg-green-900 flex flex-col items-center justify-center overflow-hidden">
       
-      <div className="relative md:bottom-0 bottom-10 md:bottom-0 flex justify-center">
+      <div className="relative md:bottom-0 bottom-20 md:bottom-0 flex justify-center">
         <img
           src={headerImage}
           alt="Gourmet Food"
           className="max-w-full md:max-h-[90vh] max-h-[70vh] object-contain"
         />
         
-        <h1 className="absolute md:top-50 top-37  text-white text-6xl md:text-7xl font-bold drop-shadow-lg text-center">
+        <h1 className="absolute md:top-50 top-37 text-white text-6xl md:text-7xl font-bold drop-shadow-lg text-center">
           GOURMET <br /> ON WHEELS
         </h1>
       </div>
 
        
-      <button className="mb-5 px-6 py-2 bg-[#3D251E]
+      <button className="px-6 py-2 bg-[#3D251E]
       text-yellow-400 text-lg font-semibold rounded-lg shadow-md hover:bg-opacity-90">
         OUR STORY
       </button>
     </div>
-    <div>
+    <div className="relative w-full max-h-[300px]">
     <img
   src={sectionOne}
   alt="Sample Image"
   className="w-full max-h-[300px] object-cover"
 />
-
+<div className="absolute inset-0 bg-black opacity-50"></div>
     </div>
     <SampleMenu />
-    <div>
-      <img src={menuimg} alt="Menu Image" 
-      className="w-full max-h-[300px] object-cover"/>
-    </div>
+
+   <div className="relative w-full max-h-[300px]">
+  <img
+    src={menuimg}
+    alt="Menu Img"
+    className="w-full max-h-[300px] object-cover"
+  />
+  <div className="absolute inset-0 bg-black opacity-50"></div>
+</div>
+    
     <CustomerReview />
     
     <div className="relative w-full max-h-[300px]">

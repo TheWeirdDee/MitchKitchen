@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
 
         {/* Right Section */}
-        <div className="w-full md:w-1/2 flex flex-col items-center md:items-start mt-4 md:mt-4">
+        <div className="w-full md:w-1/2 flex flex-col items-center md:items-start mt-4 md:mt-">
           <h3 className="text-xl font-bold mb-3">LET'S CONNECT</h3>
           <div className="flex space-x-3">
             <a href="#" className="bg-[#E9CFA7] text-gray-900 p-2 rounded-full">
