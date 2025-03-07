@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="bg-green-900 min-h-screen flex items-center justify-center p-10 relative">
       {/* Large Rotated Text */}
-      <h1 className="about-heading absolute md:left-1/2 left-1/9 sm:left-1/8 top-100 -translate-x-1/2 text-[50px] sm:text-[50px] md:text-[90px] text-beige font-serif font-bold uppercase tracking-wide rotate-90">
+      <h1 className="about-heading absolute md:left-1/2 left-1/8 sm:left-1/7 top-100 -translate-x-1/2 text-[50px] sm:text-[50px] md:text-[90px] text-beige font-serif font-bold uppercase tracking-wide rotate-90">
   OUR STORY
 </h1>
 
@@ -68,7 +68,7 @@ const About = () => {
         </div>
         
         {/* Right Section */}
-        <div className="flex flex-col gap-16 relative left-0 md:left-30">
+        <div className="flex flex-col gap-16 relative left-0 md:left-30 sm:left-0 content-right">
           {/* CULTURE */}
           <div className="relative w-44 h-55 bg-[#f5f5dc] rounded-sm shadow-lg rotate-[15deg] mt-10 flex items-center justify-center">
               <img
