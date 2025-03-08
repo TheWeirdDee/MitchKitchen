@@ -123,7 +123,7 @@ const About = () => {
                 alt="Culture"
                 className="w-40 h-40 object-cover relative bottom-6"
               />
-              <p className="absolute top-43 text-black font-bold text-sm">
+               <p className="absolute top-43 text-black font-bold text-sm">
                 With Love <br /> Mitch Kitchen
               </p>
             </div>
