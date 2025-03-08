@@ -22,7 +22,7 @@ const About = () => {
       {/* Content Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-35 relative z-1 md:left-0 left-16">
         {/* Left Section */}
-        <div className="flex flex-col gap-16">
+        <div className="flex flex-col gap-16  relative md:right-10 right-15">
           {/* ROOTS */}
           <div className="flex flex-col" data-aos="fade-up">
             <h2 className="text-white text-2xl font-serif font-bold">ROOTS</h2>
