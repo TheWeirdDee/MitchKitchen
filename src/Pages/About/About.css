@@ -9,10 +9,20 @@
   }
   @media (min-width: 1000px) {
     .about-heading {
-      font-size: 90px; 
+      font-size: 70px; 
+    }
+    .content-right{
+        position: relative;
+      left: 40px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .about-heading {
+      font-size: 80px; 
     }
     .content-right{
         position: relative;
       left: 120px;
+       
     }
   }
