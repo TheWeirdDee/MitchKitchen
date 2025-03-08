@@ -87,7 +87,7 @@ const About = () => {
         </div>
 
         {/* Right Section */}
-        <div className="flex flex-col gap-16 relative left-0 md:left-30 sm:left-0 content-right">
+        <div className="flex flex-col gap-16 relative bottom-20 right-10 md:left-30 sm:left-0 content-right">
           {/* CULTURE */}
           <div
             className="relative w-44 h-55 bg-[#f5f5dc] rounded-sm shadow-lg rotate-[15deg] mt-10 flex items-center justify-center"
