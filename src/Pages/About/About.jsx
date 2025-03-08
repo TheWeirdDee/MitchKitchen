@@ -13,7 +13,7 @@ const About = () => {
     <div className="bg-green-900 min-h-screen flex items-center justify-center p-10 relative">
       {/* Large Rotated Text */}
       <h1
-        className="about-heading absolute md:left-1/2 left-1/8 sm:left-1/7 top-100 -translate-x-1/2 text-[50px] sm:text-[50px] md:text-[90px] text-beige font-serif font-bold uppercase tracking-wide rotate-90"
+        className="about-heading absolute md:left-1/2 left-1/8 sm:left-1/7 top-70 -translate-x-1/2 text-[50px] sm:text-[50px] md:text-[90px] text-beige font-serif font-bold uppercase tracking-wide rotate-90"
         data-aos="fade-down"
       >
         OUR STORY
@@ -22,7 +22,7 @@ const About = () => {
       {/* Content Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-35 relative z-1 md:left-0 left-16">
         {/* Left Section */}
-        <div className="flex flex-col gap-16  relative md:right-10 right-15">
+        <div className="flex flex-col gap-16  relative md:right-0 right-10">
           {/* ROOTS */}
           <div className="flex flex-col" data-aos="fade-up">
             <h2 className="text-white text-2xl font-serif font-bold">ROOTS</h2>
