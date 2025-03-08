@@ -78,11 +78,12 @@ const About = () => {
 
           <div className="flex flex-col" data-aos="fade-up">
             <h2 className="text-white text-2xl font-serif font-bold">CULTURE</h2>
-            <p className="text-white text-lg max-w-md">
-              Our culture is one of comfort food. <br /> Fast food from different parts <br />
-              of the world re-imagined to  <br /> excite your tastes and create <br /> an
-              unforgettable experience.
-            </p>
+            <p className="text-white text-lg max-w-md text-left">
+  Our culture is one of comfort food. <br /> Fast food from different parts <br />
+  of the world re-imagined to  <br /> excite your tastes and create <br /> an
+  unforgettable experience.
+</p>
+
             <div className="relative w-44 h-55 bg-[#f5f5dc] rounded-sm shadow-lg rotate-[15deg] mt-10 flex items-center justify-center" data-aos="zoom-in">
               <img src={events} alt="Culture" className="w-40 h-40 object-cover relative bottom-6" />
               <p className="absolute top-43 text-black font-bold text-sm">
@@ -95,9 +96,9 @@ const About = () => {
           <div className="flex flex-col" data-aos="fade-up">
             <h2 className="text-white text-2xl font-serif font-bold">MENU</h2>
             <p className="text-white text-lg max-w-md">
-              Our menus are as unique as  <br /> the events we cater.  With a  <br /> menu that 
-              never stays the same,  <br /> specially created every time to  <br /> make sure
-              your experience <br /> of our food is always new <br />and exciting!
+              Our menus are as unique as  <br /> the events we cater.  With a  menu <br />that 
+              never stays the same, specially <br />  created every time to make sure <br /> 
+              your experience of our food is <br />  always new and exciting!
             </p>
             <div className="relative w-44 h-55 bg-[#f5f5dc] rounded-sm shadow-lg rotate-[15deg] mt-10 flex items-center justify-center" data-aos="zoom-in">
               <img src={events} alt="Menu" className="w-40 h-40 object-cover relative bottom-6" />
