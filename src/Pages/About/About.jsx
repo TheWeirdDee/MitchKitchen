@@ -97,7 +97,7 @@ const About = () => {
             <p className="text-white text-lg max-w-md">
               Our menus are as unique as  <br /> the events we cater.  With a  <br /> menu that 
               never stays the same,  <br /> specially created every time to  <br /> make sure
-              your experience <br /> of our food is always new and exciting!
+              your experience <br /> of our food is always new <br />and exciting!
             </p>
             <div className="relative w-44 h-55 bg-[#f5f5dc] rounded-sm shadow-lg rotate-[15deg] mt-10 flex items-center justify-center" data-aos="zoom-in">
               <img src={events} alt="Menu" className="w-40 h-40 object-cover relative bottom-6" />
