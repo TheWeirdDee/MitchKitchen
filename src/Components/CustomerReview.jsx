@@ -88,7 +88,7 @@ const CustomerReview = () => {
               </div>
               <p 
   className="text-lg  whitespace-normal font-bold  px-8 " 
-  style={{ lineHeight: "1.2", wordSpacing: "5px" }}
+  style={{ lineHeight: "1.2", wordSpacing: "3px" }}
 >
   {review.text}
 </p>
