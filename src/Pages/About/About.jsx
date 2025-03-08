@@ -51,12 +51,12 @@ const About = () => {
             <h2 className="text-white text-2xl font-serif font-bold">
               PASSION
             </h2>
-            <p className="text-white text-lg ">
+            {/* <p className="text-white text-lg ">
               Our chef is as passionate <br />
               about cooking as you are about <br /> eating! There is something
               about <br /> food cooked with love they say, <br /> you can always
               tell!
-            </p>
+            </p> */}
             <div
               className="relative w-44 h-55 bg-[#f5f5dc] rounded-sm shadow-lg rotate-[-15deg] mt-10 flex items-center justify-center"
               data-aos="zoom-in"
@@ -87,7 +87,7 @@ const About = () => {
         </div>
 
         {/* Right Section */}
-        <div className="flex flex-col gap-16 relative md:bottom-0 bottom-30 right-15 md:left-30 sm:left-0 content-right">
+        <div className="flex flex-col gap-16 relative md:bottom-0 bottom-30 md:right-15 right-0 md:left-30 sm:left-0 content-right">
           {/* CULTURE */}
           <div
             className="relative w-44 h-55 bg-[#f5f5dc] rounded-sm shadow-lg rotate-[15deg] mt-10 flex items-center justify-center"
