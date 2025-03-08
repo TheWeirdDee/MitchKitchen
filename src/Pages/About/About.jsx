@@ -51,12 +51,12 @@ const About = () => {
             <h2 className="text-white text-2xl font-serif font-bold">
               PASSION
             </h2>
-            {/* <p className="text-white text-lg ">
+            <p className="text-white text-lg ">
               Our chef is as passionate <br />
               about cooking as you are about <br /> eating! There is something
               about <br /> food cooked with love they say, <br /> you can always
               tell!
-            </p> */}
+            </p>
             <div
               className="relative w-44 h-55 bg-[#f5f5dc] rounded-sm shadow-lg rotate-[-15deg] mt-10 flex items-center justify-center"
               data-aos="zoom-in"
@@ -108,7 +108,7 @@ const About = () => {
               CULTURE
             </h2>
             <p className="text-white text-lg max-w-md text-left">
-              Our culture is one of comfort food. <br /> Fast food from
+              Our culture is one of comfort.<br />Fast food from
               different parts <br />
               of the world re-imagined to <br /> excite your tastes and create{" "}
               <br /> an unforgettable experience.
@@ -134,7 +134,7 @@ const About = () => {
             <h2 className="text-white text-2xl font-serif font-bold">MENU</h2>
             <p className="text-white text-lg w-full max-w-sm md:max-w-md break-words hidden md:block">
               Our menus are as unique as the events we cater. <br /> With a menu that
-              never stays the same, <br /> specially created every time to make sure
+              never stays the same, <br /> specially made every time to make sure
               your experience of our food is always new <br /> and exciting!
             </p>
              
