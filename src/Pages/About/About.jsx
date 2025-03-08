@@ -81,13 +81,13 @@ const About = () => {
               From festivals to parties to <br />
               private dining events, as our <br /> slogan suggests, we are{" "}
               <br />
-              bringing fine dining straight to you. <br /> Catch us on the road!
+              bringing fine dining straight <br /> to you. Catch us on the road!
             </p>
           </div>
         </div>
 
         {/* Right Section */}
-        <div className="flex flex-col gap-16 relative bottom-30 right-20 md:left-30 sm:left-0 content-right">
+        <div className="flex flex-col gap-16 relative md:bottom-0 bottom-30 right-15 md:left-30 sm:left-0 content-right">
           {/* CULTURE */}
           <div
             className="relative w-44 h-55 bg-[#f5f5dc] rounded-sm shadow-lg rotate-[15deg] mt-10 flex items-center justify-center"
