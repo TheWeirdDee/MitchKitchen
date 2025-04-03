@@ -32,11 +32,11 @@ const Home = () => {
       <img
         src={headerImage}
         alt="Gourmet Food"
-        className="max-w-full md:max-h-[65vh] max-h-[70vh] object-contain"
+        className="max-w-full md:max-h-[65vh] max-h-[60vh] object-contain"
         style={{ opacity: 0.6 }}
         
       />
-      <h1 className="absolute top-1/2 transform -translate-y-1/3 text-white text-7xl md:text-8xl font-bold drop-shadow-lg text-center TheSeason whitespace-nowrap">
+      <h1 className="absolute top-1/2 transform -translate-y-1/3 text-white text-6xl md:text-8xl font-bold drop-shadow-lg text-center TheSeason whitespace-nowrap">
   GOURMET <br /> ON WHEELS
 </h1>
 {/* <h1 className="absolute top-1/3 transform -translate-y-1/9 mt-20 text-white text-6xl md:text-8xl font-bold drop-shadow-lg text-center TheSeason whitespace-nowrap">
