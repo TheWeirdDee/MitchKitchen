@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaInstagram, FaFacebook } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 import MainLogo from '../../assets/MainLogo.png';
 import './Navbar.css';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,9 +15,13 @@ const Navbar = () => {
   return (
     <nav className=" bg-[#013220] text-[#D3AF37] frunchy px-6 md:px-16 py-4 flex justify-between items-center relative">
       {/* Logo */}
-      <div className="text-xl font-bold relative logo">
-        <img src={MainLogo} alt="Logo" className="pt-2 h-20 w-20" />
-      </div>
+      
+      <Link to="/">
+  <div className="text-xl font-bold relative logo">
+    <img src={MainLogo} alt="Logo" className="pt-2 h-20 w-20" />
+  </div>
+</Link>
+
 
       {/* Desktop Menu */}
       <ul className="hidden md:flex space-x-8 text-sm uppercase">

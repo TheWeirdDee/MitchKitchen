@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // import "./ContactSection.css";
 import Soup from "../assets/Soup.jpg";
 
@@ -13,9 +14,11 @@ const ContactSection = () => {
         <h2 className="text-5xl md:text-6xl font-bold leading-16">
           WE WOULD LOVE TO <br /> HEAR FROM YOU
         </h2>
+        <Link to="/contact">
         <button className="mt-10 bg-[#ce1126] text-white text-sm md:text-base font-semibold py-2 px-5 md:px-10 rounded-full hover:bg-[#d3af37] transition duration-300">
           CONTACT US
         </button>
+        </Link>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../index.css"
@@ -59,9 +60,11 @@ export default function SampleMenu() {
 
       {/* Button */}
       <div className="mt-8 text-center" data-aos="fade-up" data-aos-delay="600">
-        <button className="bg-[#ce1126] hover:bg-yellow-700 text-white font-bold py-2 px-8 rounded-full shadow-lg text-md">
-          CONTACT US
-        </button>
+      <Link to="/contact">
+  <button className="bg-[#ce1126] hover:bg-yellow-700 text-white font-bold py-2 px-8 rounded-full shadow-lg text-md">
+    CONTACT US
+  </button>
+</Link>
       </div>
     </div>
   );

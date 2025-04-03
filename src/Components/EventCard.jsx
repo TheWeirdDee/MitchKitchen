@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import events from "../assets/events.jpg";
 import './EventCard.css';
 
@@ -31,9 +32,11 @@ const EventCard = () => {
 
         {/* Button */}
         <div className="flex justify-center mt-4 ">
+        <Link to="/contact">
           <button className="menu-button rounded-full transition">
             BOOK A TASTING
           </button>
+          </Link>
         </div>
       </div>
     </div>

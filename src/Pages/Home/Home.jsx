@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "../../index.css";  
 import "./Home.css";  
+import { Link } from "react-router-dom";
 
 import headerImage from "../../assets/headerImage.png";
 import SampleMenu from "../../Components/SampleMenu";
@@ -46,9 +47,11 @@ const Home = () => {
     </div>
 
     {/* Centered Button */}
-    <button className="px-7 py-2 bg-[#CE1126] frunchy text-white mb-5 text-md font-semibold rounded-3xl hover:bg-yellow-700">
-      OUR STORY
-    </button>
+    <Link to="/about">
+  <button className="px-7 py-2 bg-[#CE1126] frunchy text-white mb-5 text-md font-semibold rounded-3xl hover:bg-yellow-700">
+    OUR STORY
+  </button>
+</Link>
   </div>
 </div>
 

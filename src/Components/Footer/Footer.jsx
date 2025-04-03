@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import FooterLogo from '../../assets/FooterLogo.jpg';
 import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
@@ -13,10 +14,19 @@ const Footer = () => {
         {/* Left Section */}
         <div className="w-full md:w-1/2 flex flex-col items-center">
           <ul className="text-lg font-semibold">
+          <Link to="/">
             <li>HOME</li>
+            </Link>
+            <Link to="/gallery">
             <li>MENU</li>
+            </Link>
+            <Link to="/about">
             <li>ABOUT US</li>
+            </Link>
+            <Link to="/contact">
             <li>CONTACT US</li>
+            </Link>
+             
           </ul>
           <img
             src={FooterLogo}
