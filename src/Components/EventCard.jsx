@@ -8,8 +8,8 @@ const EventCard = () => {
     <div className="flex justify-center items-center min-h-screen bg-[#013220] p-6">
       <div className="text-[#ce1126] max-w-lg w-full border border-transparent p-6">
         <div className="text-center TheSeason mb-4 title">
-          <h2 className="text-4xl font-bold uppercase">Upcoming</h2> 
-          <h2 className="text-4xl    font-bold uppercase">Events</h2>
+          <h2 className="text-3xl md:text-4xl font-bold uppercase">Upcoming</h2> 
+          <h2 className="text-3xl md:text-4xl font-bold uppercase">Events</h2>
           {/* <span className="absolute md:left-112 left-95 top-1/2 transform -translate-y-1/2 w-1/3 md:w-1/5 h-1 bg-yellow-500"></span>
       <span className="absolute md:right-112 right-95 top-1/2 transform -translate-y-1/2 w-1/3 md:w-1/5 h-1 bg-yellow-500"></span> */}
         </div>
