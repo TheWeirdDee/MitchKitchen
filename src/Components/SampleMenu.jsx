@@ -15,8 +15,8 @@ export default function SampleMenu() {
         data-aos="fade-up"
       >
         SAMPLE MENU
-        <span className="absolute md:left-70 left-55 top-1/2 transform -translate-y-1/2 w-1/2 md:w-1/2 h-1 bg-yellow-500"></span>
-        <span className="absolute md:right-70 right-55 top-1/2 transform -translate-y-1/2 w-1/2 md:w-1/2 h-1 bg-yellow-500"></span>
+        <span className="absolute md:left-70 left-58 top-1/3 transform -translate-y-1/2 w-1/3 md:w-1/2 h-1 bg-yellow-500"></span>
+        <span className="absolute md:right-70 right-58 top-1/3 transform -translate-y-1/2 w-1/3 md:w-1/2 h-1 bg-yellow-500"></span>
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center w-full max-w-4xl">
