@@ -11,11 +11,11 @@ const ContactSection = () => {
       
       {/* Content */}
       <div className="relative text-center text-white px-6 py-8">
-        <h2 className="text-5xl md:text-6xl font-bold leading-16">
+        <h2 className="TheSeason text-5xl md:text-6xl font-bold leading-16">
           WE WOULD LOVE TO <br /> HEAR FROM YOU
         </h2>
         <Link to="/contact">
-        <button className="mt-10 bg-[#ce1126] text-white text-sm md:text-base font-semibold py-2 px-5 md:px-10 rounded-full hover:bg-[#d3af37] transition duration-300">
+        <button className="Bona mt-10 bg-[#ce1126] text-white text-md md:text-base font-semibold py-2 px-5 md:px-10 rounded-full hover:bg-[#d3af37] transition duration-300">
           CONTACT US
         </button>
         </Link>

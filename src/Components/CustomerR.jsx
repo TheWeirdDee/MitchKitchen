@@ -1,10 +1,10 @@
 import React from 'react'
-
+import '../index.css';
 const CustomerR = () => {
   return (
     <div className="bg-[#013220] text-[#ce1126] py-12 px-6 md:px-16  flex flex-col justify-center items-center">
     <h2
-      className="text-center text-5xl md:text-5xl font-bold inline-block mb-8 mx-auto pb-2 relative"
+      className="TheSeason text-center text-5xl md:text-5xl font-bold inline-block mb-8 mx-auto pb-2 relative"
       data-aos="fade-up"
     >
       Customer <br /> Reviews

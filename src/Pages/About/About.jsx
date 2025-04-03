@@ -5,6 +5,7 @@ import aboutthree from "../../assets/aboutthree.png";
 import aboutfour from "../../assets/aboutfour.png";
 import aboutfive from "../../assets/aboutfive.png";
 import "./About.css";
+import "../../index.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Excited from "../../Components/Excited";
@@ -19,7 +20,7 @@ const About = () => {
       <div className="bg-[#013220] min-h-screen flex items-center justify-center p-10 relative">
         {/*  Text */}
         <h1
-          className="about-heading h absolute md:left-1/2 left-1/8 sm:left-1/7 top-70 -translate-x-1/2 text-[50px] sm:text-[60px] md:text-[100px] text-[#ce1126] font-serif font-bold uppercase tracking-wide rotate-90"
+          className="TheSeason about-heading h absolute md:left-1/2 left-1/8 sm:left-1/7 top-70 -translate-x-1/2 text-[60px] sm:text-[60px] md:text-[100px] text-[#ce1126] font-bold uppercase tracking-wide rotate-90"
           data-aos="fade-down"
           style={{
             position: "absolute",
@@ -43,10 +44,10 @@ const About = () => {
           <div className="flex flex-col gap-16  relative content-left right-20 ">
             {/* ROOTS */}
             <div className="flex flex-col" data-aos="fade-up">
-              <h2 className="text-white text-2xl font-serif font-bold">
+              <h2 className="TheSeason text-white text-3xl mb-2 font-bold">
                 ROOTS
               </h2>
-              <p className="text-white text-lg max-w-md">
+              <p className="text-white Bona text-lg max-w-md">
                 From Jamaica with love. A <br /> history of homemade food,{" "}
                 <br />
                 savory and sweet palette, <br /> pungent spices, and a love for
@@ -66,10 +67,10 @@ const About = () => {
 
             {/* PASSION */}
             <div className="flex flex-col" data-aos="fade-up">
-              <h2 className="text-white text-2xl font-serif font-bold">
+              <h2 className="text-white text-3xl mb-2 TheSeason font-bold">
                 PASSION
               </h2>
-              <p className="text-white text-lg ">
+              <p className="text-white Bona text-lg ">
                 Our chef is as passionate <br />
                 about cooking as you are about <br /> eating! There is something
                 about <br /> food cooked with love they say, <br /> you can
@@ -89,10 +90,10 @@ const About = () => {
 
             {/* ON THE ROAD */}
             <div className="flex flex-col" data-aos="fade-up">
-              <h2 className="text-white text-2xl font-serif font-bold">
+              <h2 className="text-white text-3xl mb-2 TheSeason font-bold">
                 ON THE ROAD
               </h2>
-              <p className="text-white text-lg max-w-md">
+              <p className="text-white Bona text-lg max-w-md">
                 From festivals to parties to <br />
                 private dining events, as our <br /> slogan suggests, we are{" "}
                 <br />
@@ -117,10 +118,10 @@ const About = () => {
             </div>
 
             <div className="flex flex-col" data-aos="fade-up">
-              <h2 className="text-white text-2xl font-serif font-bold">
+              <h2 className="text-white text-3xl mb-2 TheSeason font-bold">
                 CULTURE
               </h2>
-              <p className="text-white text-lg max-w-md text-left">
+              <p className="text-white text-lg max-w-md Bona text-left">
                 Our culture is one of comfort.
                 <br />
                 Fast food from different parts <br />
@@ -142,8 +143,8 @@ const About = () => {
 
             {/* MENU */}
             <div className="flex flex-col" data-aos="fade-up">
-              <h2 className="text-white text-2xl font-serif font-bold">MENU</h2>
-              <p className="text-white text-lg w-full max-w-sm md:max-w-md break-words hidden md:block">
+              <h2 className="text-white text-3xl mb-2 TheSeason font-bold">MENU</h2>
+              <p className="text-white Bona text-lg w-full max-w-sm md:max-w-md break-words hidden md:block">
                 Our menus are as unique as <br /> the events we cater. <br />{" "}
                 With a menu that never stays <br />
                 the same, specially made every <br />
@@ -151,7 +152,7 @@ const About = () => {
                 always new, and exciting!
               </p>
 
-              <p className="text-white text-lg w-full max-w-sm text-justify break-words block md:hidden">
+              <p className="text-white Bona text-lg w-full max-w-sm text-justify break-words block md:hidden">
                 Our menus are as unique <br /> as the events we cater. <br />
                 With a menu that never <br />
                 stays the same, specially created <br /> every time to make sure

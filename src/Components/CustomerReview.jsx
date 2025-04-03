@@ -4,7 +4,6 @@ import foodtray from "../assets/foodtray.jpg";
 import '../index.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 const reviews = [
   {
     rating: 5,
@@ -58,7 +57,7 @@ const CustomerReview = () => {
           <Slider {...settings}>
             {reviews.map((review, index) => (
               <div key={index} className="p-4">
-                <div className="p-6 rounded-lg shadow-lg relative h-64"
+                <div className="playfair p-6 rounded-lg shadow-lg relative h-64"
                      style={{
                         textAlign: 'left',
                         padding: '1px 9px',   
@@ -73,12 +72,12 @@ const CustomerReview = () => {
                     {Array(review.rating)
                       .fill("★")
                       .map((star, i) => (
-                        <span key={i} className="text-[#0b7649] mt-2 text-lg">
+                        <span key={i} className="text-[#0b7649] mt-2 text-3xl">
                           {star}
                         </span>
                       ))}
                   </div>
-                  <p className="text-lg whitespace-normal font-bold px-8" style={{ lineHeight: "1.2", wordSpacing: "3px" }}>
+                  <p className="text-2xl whitespace-normal font-bold px-8" style={{ lineHeight: "1.2", wordSpacing: "3px" }}>
                     {review.text}
                   </p>
                 </div>

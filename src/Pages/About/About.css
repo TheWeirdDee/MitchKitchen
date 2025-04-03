@@ -1,6 +1,6 @@
 @media (min-width: 765px) {
     .about-heading {
-      font-size: 55px;
+      font-size: 60px;
     }
     .content-right{
         position: relative;
@@ -13,7 +13,7 @@
   }
   @media (min-width: 1000px) {
     .about-heading {
-      font-size: 70px; 
+      font-size: 80px; 
     }
     .content-right{
         position: relative;
@@ -26,7 +26,7 @@
   }
   @media (min-width: 1200px) {
     .about-heading {
-      font-size: 80px; 
+      font-size: 100px; 
     }
     .content-right{
         position: relative;

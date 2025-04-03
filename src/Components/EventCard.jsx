@@ -7,9 +7,11 @@ const EventCard = () => {
   return (
     <div className="flex justify-center items-center min-h-screen bg-[#013220] p-6">
       <div className="text-[#ce1126] max-w-lg w-full border border-transparent p-6">
-        <div className="text-center mb-4 title">
-          <h2 className="text-3xl font-bold uppercase">Upcoming</h2>
-          <h2 className="text-3xl font-bold uppercase">Events</h2>
+        <div className="text-center TheSeason mb-4 title">
+          <h2 className="text-4xl font-bold uppercase">Upcoming</h2> 
+          <h2 className="text-4xl    font-bold uppercase">Events</h2>
+          <span className="absolute md:left-112 left-95 top-1/2 transform -translate-y-1/2 w-1/3 md:w-1/5 h-1 bg-yellow-500"></span>
+      <span className="absolute md:right-112 right-95 top-1/2 transform -translate-y-1/2 w-1/3 md:w-1/5 h-1 bg-yellow-500"></span>
         </div>
 
         {/* Image Section */}
@@ -23,17 +25,17 @@ const EventCard = () => {
 
         {/* Event Details */}
         <div className="bg-[#b4911c] text-white text-center p-6 mt-0 ">
-          <h3 className="text-2xl font-bold uppercase">Touch Ah Color</h3>
-          <h3 className="text-2xl mt-3 font-bold uppercase">Touch Ah Surgery</h3>
-          <p className="text-sm mt-3
+          <h3 className="playfair text-3xl font-bold uppercase">Touch Ah Color</h3>
+          <h3 className="text-3xl playfair mt-3 font-bold uppercase">Touch Ah Surgery</h3>
+          <p className="Bona text-lg mt-3
     text-left font-bold">Date: August 24, 2025</p>
-          <p className="text-sm text-left mt-3 font-bold">Location: London, United Kingdom</p>
+          <p className="Bona text-lg text-left mt-3 font-bold">Location: London, United Kingdom</p>
         </div>
 
         {/* Button */}
         <div className="flex justify-center mt-4 ">
         <Link to="/contact">
-          <button className="menu-button rounded-full transition">
+          <button className="TheSeason  menu-button rounded-full transition">
             BOOK A TASTING
           </button>
           </Link>
