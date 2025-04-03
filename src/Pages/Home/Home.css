@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('../assets/Fonts/chloe/chloe.otf') format('otf'),
+    url('../assets/Fonts/perandory/perandory.otf') format('otf'),
+         url('../assets/Fonts/frunchy/frunchy.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+   
+  .frunchy {
+    font-family: 'frunchy', sans-serif;
+  }
+  .chloe {
+    font-family: 'chloe', sans-serif;
+  }
+  .perandory {
+    font-family: 'perandory', sans-serif;
+  }
+  

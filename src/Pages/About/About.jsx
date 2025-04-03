@@ -1,8 +1,13 @@
 import React, { useEffect } from "react";
-import events from "../../assets/events.jpg";
+import aboutone from "../../assets/aboutone.png";
+import abouttwo from "../../assets/abouttwo.png";
+import aboutthree from "../../assets/aboutthree.png";
+import aboutfour from "../../assets/aboutfour.png";
+import aboutfive from "../../assets/aboutfive.png";
 import "./About.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Excited from "../../Components/Excited";
 
 const About = () => {
   useEffect(() => {
@@ -10,17 +15,18 @@ const About = () => {
   }, []);
 
   return (
-    <div className="bg-green-900 min-h-screen flex items-center justify-center p-10 relative">
+  <div>
+       <div className="bg-[#013220] min-h-screen flex items-center justify-center p-10 relative">
       {/* Large Rotated Text */}
       <h1
-        className="about-heading absolute md:left-1/2 left-1/8 sm:left-1/7 top-70 -translate-x-1/2 text-[50px] sm:text-[50px] md:text-[90px] text-beige font-serif font-bold uppercase tracking-wide rotate-90"
+        className="about-heading h absolute md:left-1/2 left-1/8 sm:left-1/7 top-70 -translate-x-1/2 text-[50px] sm:text-[60px] md:text-[100px] text-[#ce1126] font-serif font-bold uppercase tracking-wide rotate-90"
         data-aos="fade-down"
       >
         OUR STORY
       </h1>
 
       {/* Content Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-35 relative z-1 md:left-0 left-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-35 relative z-1 md:left-5 left-16">
         {/* Left Section */}
         <div className="flex flex-col gap-16  relative md:right-0 right-10">
           {/* ROOTS */}
@@ -32,17 +38,15 @@ const About = () => {
               <br /> food that’s passed from <br /> generation to generation.
             </p>
             <div
-              className="relative w-44 h-55 bg-[#f5f5dc] rounded-sm shadow-lg rotate-[-15deg] mt-10 flex items-center justify-center"
+              className="relative w-44 h-55 rounded-sm shadow-lg rotate-[-15deg] mt-10 flex items-center justify-center"
               data-aos="zoom-in"
             >
               <img
-                src={events}
+                src={abouttwo}
                 alt="Roots"
-                className="w-40 h-40 object-cover relative bottom-6"
+                className="w-44 h-55 object-cover relative"
               />
-              <p className="absolute top-43 text-black font-bold text-sm">
-                With Love <br /> Mitch Kitchen
-              </p>
+               
             </div>
           </div>
 
@@ -58,17 +62,15 @@ const About = () => {
               tell!
             </p>
             <div
-              className="relative w-44 h-55 bg-[#f5f5dc] rounded-sm shadow-lg rotate-[-15deg] mt-10 flex items-center justify-center"
+              className="relative w-44 h-55 rounded-sm shadow-lg rotate-[-15deg] mt-10 flex items-center justify-center"
               data-aos="zoom-in"
             >
               <img
-                src={events}
+                src={aboutfour}
                 alt="Passion"
-                className="w-40 h-40 object-cover relative bottom-6"
+                className="w-44 h-55 object-cover relative"
               />
-              <p className="absolute top-43 text-black font-bold text-sm">
-                With Love <br /> Mitch Kitchen
-              </p>
+              
             </div>
           </div>
 
@@ -90,17 +92,15 @@ const About = () => {
         <div className="flex flex-col gap-16 relative md:bottom-0 bottom-30 md:right-10 right-15 md:left-30 sm:left-0 content-right">
           {/* CULTURE */}
           <div
-            className="relative w-44 h-55 bg-[#f5f5dc] rounded-sm shadow-lg rotate-[15deg] mt-10 flex items-center justify-center"
+            className="relative w-44 h-55  rounded-sm shadow-lg rotate-[15deg] mt-10 flex items-center justify-center"
             data-aos="zoom-in"
           >
             <img
-              src={events}
+              src={aboutone}
               alt="On The Road"
-              className="w-40 h-40 object-cover relative bottom-6"
+              className="w-44 h-55 object-cover relative bottom-1"
             />
-            <p className="absolute top-43 text-black font-bold text-sm">
-              With Love <br /> Mitch Kitchen
-            </p>
+             
           </div>
 
           <div className="flex flex-col" data-aos="fade-up">
@@ -115,17 +115,15 @@ const About = () => {
             </p>
 
             <div
-              className="relative w-44 h-55 bg-[#f5f5dc] rounded-sm shadow-lg rotate-[15deg] mt-10 flex items-center justify-center"
+              className="relative w-44 h-55 rounded-sm shadow-sm rotate-[15deg] mt-10 flex items-center justify-center"
               data-aos="zoom-in"
             >
               <img
-                src={events}
+                src={aboutthree}
                 alt="Culture"
-                className="w-40 h-40 object-cover relative bottom-6"
+                className="w-44 h-55 object-cover relative"
               />
-               <p className="absolute top-43 text-black font-bold text-sm">
-                With Love <br /> Mitch Kitchen
-              </p>
+                
             </div>
           </div>
 
@@ -133,36 +131,35 @@ const About = () => {
           <div className="flex flex-col" data-aos="fade-up">
             <h2 className="text-white text-2xl font-serif font-bold">MENU</h2>
             <p className="text-white text-lg w-full max-w-sm md:max-w-md break-words hidden md:block">
-              Our menus are as unique as the events we cater. <br /> With a menu that
-              never stays the same, <br /> specially made every time to make sure
-              your experience of our food is always new <br /> and exciting!
+              Our menus are as unique as <br /> the events we cater. <br /> With a menu that
+              never stays <br />the same, specially made every <br />time to make sure your experience of <br />
+             our food is always new, <br /> and exciting!
             </p>
              
             <p className="text-white text-lg w-full max-w-sm text-justify break-words block md:hidden">
               Our menus are as unique <br /> as the events we cater. <br />
               With a menu that never <br />
-              stays the same, specially created <br /> every time to make sure{" "}
-              <br />
+              stays the same, specially created <br /> every time to make sure 
               your experience of our food <br /> is always new and exciting!
             </p>
 
             <div
-              className="relative w-44 h-55 bg-[#f5f5dc] rounded-sm shadow-lg rotate-[15deg] mt-10 flex items-center justify-center"
+              className="relative w-44 h-55 rounded-sm shadow-sm rotate-[15deg] mt-10 flex items-center justify-center"
               data-aos="zoom-in"
             >
               <img
-                src={events}
+                src={aboutfive}
                 alt="Menu"
-                className="w-40 h-40 object-cover relative bottom-6"
+                className="w-44 h-55 object-cover relative  "
               />
-              <p className="absolute top-43 text-black font-bold text-sm">
-                With Love <br /> Mitch Kitchen
-              </p>
+               
             </div>
           </div>
         </div>
       </div>
     </div>
+    <Excited />
+  </div>
   );
 };
 

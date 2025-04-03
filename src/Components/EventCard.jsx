@@ -4,8 +4,8 @@ import './EventCard.css';
 
 const EventCard = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-green-900 p-6">
-      <div className="  text-white max-w-lg w-full border border-transparent p-6">
+    <div className="flex justify-center items-center min-h-screen bg-[#013220] p-6">
+      <div className="text-[#ce1126] max-w-lg w-full border border-transparent p-6">
         <div className="text-center mb-4 title">
           <h2 className="text-3xl font-bold uppercase">Upcoming</h2>
           <h2 className="text-3xl font-bold uppercase">Events</h2>
@@ -21,7 +21,7 @@ const EventCard = () => {
         </div>
 
         {/* Event Details */}
-        <div className="bg-yellow-700 text-white text-center p-6 mt-0 ">
+        <div className="bg-[#b4911c] text-white text-center p-6 mt-0 ">
           <h3 className="text-2xl font-bold uppercase">Touch Ah Color</h3>
           <h3 className="text-2xl mt-3 font-bold uppercase">Touch Ah Surgery</h3>
           <p className="text-sm mt-3
@@ -32,7 +32,7 @@ const EventCard = () => {
         {/* Button */}
         <div className="flex justify-center mt-4 ">
           <button className="menu-button rounded-full transition">
-            See Our Menu
+            BOOK A TASTING
           </button>
         </div>
       </div>

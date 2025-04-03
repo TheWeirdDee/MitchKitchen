@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { FaBars, FaTimes, FaTiktok, FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaBars, FaTimes, FaInstagram, FaFacebook } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
-import Logo from '../../assets/Logo.svg';
+import MainLogo from '../../assets/MainLogo.png';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -12,10 +12,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-green-900 text-[#d4af7a] px-6 md:px-16 py-4 flex justify-between items-center relative">
+    <nav className=" bg-[#013220] text-[#D3AF37] frunchy px-6 md:px-16 py-4 flex justify-between items-center relative">
       {/* Logo */}
       <div className="text-xl font-bold relative logo">
-        <img src={Logo} alt="Logo" className="h-10 w-10" />
+        <img src={MainLogo} alt="Logo" className="pt-2 h-20 w-20" />
       </div>
 
       {/* Desktop Menu */}
@@ -24,7 +24,7 @@ const Navbar = () => {
           <NavLink 
             exact to="/" 
             className={({ isActive }) => 
-              `navLink hover:text-white ${isActive ? "border-b-2 border-[#d4af7a]" : ""}`
+              `navLink hover:text-white ${isActive ? "border-b-2 border-white" : ""}`
             }
           >
             Home
@@ -34,7 +34,7 @@ const Navbar = () => {
           <NavLink 
             exact to="/gallery" 
             className={({ isActive }) => 
-              `navLink hover:text-white ${isActive ? "border-b-2 border-[#d4af7a]" : ""}`
+              `navLink hover:text-white ${isActive ? "border-b-2 border-white" : ""}`
             }
           >
             Gallery
@@ -44,7 +44,7 @@ const Navbar = () => {
           <NavLink 
             exact to="/about" 
             className={({ isActive }) => 
-              `navLink hover:text-white ${isActive ? "border-b-2 border-[#d4af7a]" : ""}`
+              `navLink hover:text-white ${isActive ? "border-b-2 border-white" : ""}`
             }
           >
             About Us
@@ -54,7 +54,7 @@ const Navbar = () => {
           <NavLink 
             exact to="/contact" 
             className={({ isActive }) => 
-              `navLink hover:text-white ${isActive ? "border-b-2 border-[#d4af7a]" : ""}`
+              `navLink hover:text-white ${isActive ? "border-b-2 border-white" : ""}`
             }
           >
             Contact Us
@@ -63,13 +63,13 @@ const Navbar = () => {
       </ul>
 
       {/* Mobile Menu Button */}
-      <button className="md:hidden z-20 right-6 text-xl" onClick={() => setIsOpen(!isOpen)}>
+      <button className="md:hidden z-20 right-0 bottom-2  relative text-xl" onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? <FaTimes /> : <FaBars />}
       </button>
 
       {/* Mobile Menu */}
       <ul
-        className={`fixed z-10 top-0 left-0 w-full pt-20 h-screen bg-green-900 text-center text-lg transition-transform duration-500 ${
+        className={`fixed z-10 top-0 left-0 w-full pt-20 h-screen bg-[#013220] text-[#D3AF37] text-center text-lg transition-transform duration-500 ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } md:hidden`}
       >
@@ -77,7 +77,7 @@ const Navbar = () => {
           <NavLink 
             exact to="/" 
             className={({ isActive }) => 
-              `navLink hover:text-white ${isActive ? "border-b-2 border-[#d4af7a]" : ""}`
+              `navLink hover:text-white ${isActive ? "border-b-2 border-white" : ""}`
             }
             onClick={handleNavLinkClick}
           >
@@ -88,7 +88,7 @@ const Navbar = () => {
           <NavLink 
             exact to="/gallery" 
             className={({ isActive }) => 
-              `navLink hover:text-white ${isActive ? "border-b-2 border-[#d4af7a]" : ""}`
+              `navLink hover:text-white ${isActive ? "border-b-2 border-white" : ""}`
             }
             onClick={handleNavLinkClick}
           >
@@ -99,7 +99,7 @@ const Navbar = () => {
           <NavLink 
             exact to="/about" 
             className={({ isActive }) => 
-              `navLink hover:text-white ${isActive ? "border-b-2 border-[#d4af7a]" : ""}`
+              `navLink hover:text-white ${isActive ? "border-b-2 border-white" : ""}`
             }
             onClick={handleNavLinkClick}
           >
@@ -110,7 +110,7 @@ const Navbar = () => {
           <NavLink 
             exact to="/contact" 
             className={({ isActive }) => 
-              `navLink hover:text-white ${isActive ? "border-b-2 border-[#d4af7a]" : ""}`
+              `navLink hover:text-white ${isActive ? "border-b-2 border-white" : ""}`
             }
             onClick={handleNavLinkClick}
           >
@@ -120,8 +120,8 @@ const Navbar = () => {
       </ul> 
       
       {/* Social Icons */}
-      <div className="absolute z-1 right-4 md:mt-22 mt-38 mr-2 flex flex-col space-y-4 text-2xl">
-        <FaTiktok className="cursor-pointer hover:text-white" />
+      <div className="absolute z-1 right-3 md:mt-11 mt-22 mr-2 flex flex-col space-y-4 text-2xl">
+         
         <FaInstagram className="cursor-pointer hover:text-white" />
         <FaFacebook className="cursor-pointer hover:text-white" />
       </div>
