@@ -13,7 +13,7 @@ const Footer = () => {
         
         {/* Left Section */}
         <div className="w-full Bona md:w-1/2 flex flex-col items-center">
-          <ul className="text-lg font-semibold">
+          <ul className="text-lg font-bold">
           <Link to="/">
             <li>HOME</li>
             </Link>

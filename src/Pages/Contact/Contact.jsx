@@ -8,7 +8,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="bg-[#013220] text-[#EFCFA0] min-h-screen flex items-center justify-center p-8">
+    <div className="bg-[#013220] font-bold text-[#EFCFA0] min-h-screen flex items-center justify-center p-8">
       <div className="grid md:grid-cols-2 gap-8 mt-1 max-w-5xl w-full">
         {/* Left Section */}
         <div className="flex flex-col gap-6 text-left md:pr-16">
@@ -16,14 +16,14 @@ const ContactUs = () => {
             <span className="mb-4">📅</span> BUY A TICKET TO OUR <br /> TASTING
             EVENTS
           </button>
-          <button className="bg-[#ce1126] text-white mb-8 py-3 Bona px-8 rounded-md flex items-center gap-3 text-sm w-max">
+          <button className="bg-[#ce1126] text-white mb-8 py-3 Bona px-8 rounded-md font-bold flex items-center gap-3 text-sm w-max">
             <span>📞</span> MAKE A RESERVATION
           </button>
           <div className=" relative w-max mt-4">
-            <h1 className="md:text-7xl text-[#ce1126] playfair text-5xl sm:text-5xl font-bold mb-3">
+            <h1 className="md:text-7xl text-[#ce1126] playfair text-6xl sm:text-5xl font-extrabold mb-3">
               CONTACT
             </h1>
-            <h2 className="md:text-6xl text-[#ce1126] text-4xl sm:text-4xl font-bold playfair absolute left-1/2 transform -translate-x-1/2 top-full">
+            <h2 className="md:text-6xl text-[#ce1126] text-5xl sm:text-4xl font-bold playfair absolute left-1/2 transform -translate-x-1/2 top-full">
               US
             </h2>
           </div>
