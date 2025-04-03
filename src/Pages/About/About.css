@@ -4,7 +4,11 @@
     }
     .content-right{
         position: relative;
-      left: 30px;
+      left: 25px;
+    }
+    .content-left{
+      position: relative;
+      left: 50px;
     }
   }
   @media (min-width: 1000px) {
@@ -13,7 +17,11 @@
     }
     .content-right{
         position: relative;
-      left: 40px;
+      left: 30px;
+    }
+    .content-left{
+      position: relative;
+      left: 0px;
     }
   }
   @media (min-width: 1200px) {
@@ -25,4 +33,24 @@
       left: 120px;
        
     }
+    .content-left{
+      position: relative;
+      left: -150px;
+    }
   }
+
+
+
+  @keyframes scrollVertical {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(100%);
+    }
+  }
+  
+  .scroll-text {
+    animation: scrollVertical 5s linear infinite;
+  }
+  

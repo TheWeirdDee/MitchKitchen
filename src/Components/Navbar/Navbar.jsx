@@ -63,7 +63,7 @@ const Navbar = () => {
       </ul>
 
       {/* Mobile Menu Button */}
-      <button className="md:hidden z-20 right-0 bottom-2  relative text-xl" onClick={() => setIsOpen(!isOpen)}>
+      <button className="md:hidden z-20 left-0 bottom-2  relative text-xl" onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? <FaTimes /> : <FaBars />}
       </button>
 
