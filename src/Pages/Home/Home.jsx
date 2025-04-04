@@ -30,13 +30,13 @@ const Home = () => {
  
 
     <div className="relative flex justify-center">
-      <img
-        src={headerImage}
-        alt="Gourmet Food"
-        className="max-w-full md:max-h-[65vh] max-h-[60vh] object-contain"
-        style={{ opacity: 0.6 }}
-        
-      />
+    <img
+  src={headerImage}
+  alt="Gourmet Food"
+  className="max-w-full [max-height:60vh] md:max-h-[65vh] [@media(max-width:499px)]:max-h-[40vh] object-contain"
+  style={{ opacity: 0.6 }}
+/>
+
       <h1 className="absolute top-1/2 transform -translate-y-1/3 text-white text-6xl md:text-8xl font-bold drop-shadow-lg text-center TheSeason whitespace-nowrap">
   GOURMET <br /> ON WHEELS
 </h1>
