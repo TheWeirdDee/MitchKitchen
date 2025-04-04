@@ -20,7 +20,7 @@ const About = () => {
       <div className="bg-[#013220] min-h-screen flex items-center justify-center p-10 relative">
         {/*  Text */}
         <h1
-          className="TheSeason about-heading h absolute md:left-1/2 left-1/8 sm:left-1/7 top-70 -translate-x-1/2 text-[60px] sm:text-[60px] md:text-[10px] text-[#ce1126] font-bold uppercase tracking-wide rotate-90"
+          className="TheSeason about-heading h absolute md:left-1/2 left-1/8 sm:left-1/7 top-70 -translate-x-1/2 text-[50px] sm:text-[60px] md:text-[10px] text-[#ce1126] font-bold uppercase tracking-wide rotate-90"
           data-aos="fade-down"
           style={{
             position: "absolute",
