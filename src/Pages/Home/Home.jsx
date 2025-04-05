@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../../index.css";  
-import "./Home.css";  
+// import "./Home.css";  
 import { Link } from "react-router-dom";
 
 import headerImage from "../../assets/headerImage.png";
@@ -37,7 +37,7 @@ const Home = () => {
 />
 
 
-<h1 className="absolute md:top-45 top-43 transform -translate-y-1/3 text-[hsla(0,0%,100%,1)] md:leading-26 leading-18 text-8xl md:text-9xl drop-shadow-lg text-center frunchy whitespace-nowrap">
+<h1 className="absolute md:top-45 top-43 transform -translate-y-1/3 text-[hsla(0,0%,100%,1)] md:leading-26 leading-18 text-8xl md:text-9xl drop-shadow-lg text-center frunchy whitespace-nowrap [@media(max-width:499px)]:top-39">
   GOURMET <br /> ON WHEELS
 </h1>
 
