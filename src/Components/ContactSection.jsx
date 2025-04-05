@@ -5,7 +5,7 @@ import Soup from "../assets/Soup.jpg";
 
 const ContactSection = () => {
   return (
-    <div className="relative flex  items-center justify-center min-h-[50vh] w-full bg-cover bg-center" style={{ backgroundImage: `url(${Soup})` }}>
+    <div className="relative flex bg-green-950  items-center justify-center min-h-[50vh] w-full bg-cover bg-center" style={{ backgroundImage: `url(${Soup})` }}   >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
       

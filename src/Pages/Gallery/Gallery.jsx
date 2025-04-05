@@ -1,8 +1,12 @@
 import React from 'react'
-
+// import ContactSection from "../../Components/ContactSection";
+import SectionDimensions from "../../Components/SectionDimensions";
 const Gallery = () => {
   return (
-    <div>Gallery</div>
+    <div>
+      {/* <ContactSection /> */}
+      <SectionDimensions />
+    </div>
   )
 }
 

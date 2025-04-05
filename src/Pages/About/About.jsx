@@ -9,6 +9,7 @@ import "../../index.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Excited from "../../Components/Excited";
+ 
 
 const About = () => {
   useEffect(() => {

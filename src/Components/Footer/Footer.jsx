@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="w-1/2 flex flex-col items-center justify-center">
           <ul className="text-lg Bona mt-2 font-extrabold flex flex-col gap-2">
             <Link to="/"><li>HOME</li></Link>
-            <Link to="/gallery"><li>MENU</li></Link>
+            
             <Link to="/about"><li>ABOUT US</li></Link>
             <Link to="/contact"><li>CONTACT US</li></Link>
           </ul>

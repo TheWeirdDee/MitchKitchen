@@ -23,7 +23,7 @@ const ContactUs = () => {
             <h1 className="md:text-7xl text-[#ce1126] playfair text-6xl sm:text-5xl font-extrabold mb-3">
               CONTACT
             </h1>
-            <h2 className="md:text-6xl text-[#ce1126] text-5xl sm:text-4xl font-bold playfair absolute left-1/2 transform -translate-x-1/2 top-full">
+            <h2 className="md:text-6xl text-[#ce1126] text-6xl sm:text-4xl font-bold playfair absolute left-1/2 transform -translate-x-1/2 top-full">
               US
             </h2>
           </div>

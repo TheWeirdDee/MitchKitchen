@@ -26,16 +26,16 @@ const Home = () => {
       <div className="relative w-full bg-[#013220] flex flex-col items-center justify-center overflow-hidden">
   {/* Gold background wrapper */}
    
-  <div className="w-[30rem] sm:w-[35rem] md:w-[40rem] lg:w-[50rem] h-auto max-h-[30rem] mb-10 p-4 rounded-lg flex flex-col items-center bg-transparent md:bg-[#d3af37] relative">  
+  <div className="w-[30rem] sm:w-[35rem] md:w-[40rem] lg:w-[50rem] h-auto max-h-[30rem] mb-10 p-4 rounded-lg flex flex-col items-center bg-transparent md:bg-[#d3af379a] relative">  
  
 
     <div className="relative flex justify-center">
     <img
   src={headerImage}
   alt="Gourmet Food"
-  className="max-w-full [max-height:60vh] md:max-h-[65vh] [@media(max-width:499px)]:max-h-[40vh] object-contain"
-  style={{ opacity: 0.6 }}
+  className="max-w-full [max-height:60vh] md:max-h-[65vh] [@media(max-width:499px)]:max-h-[40vh] object-contain opacity-40 md:opacity-90"
 />
+
 
       <h1 className="absolute top-1/2 transform -translate-y-1/3 text-white text-6xl md:text-8xl font-bold drop-shadow-lg text-center TheSeason whitespace-nowrap">
   GOURMET <br /> ON WHEELS
