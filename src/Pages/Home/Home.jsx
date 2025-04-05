@@ -37,7 +37,7 @@ const Home = () => {
 />
 
 
-<h1 className="absolute md:top-45 top-43 transform -translate-y-1/3 text-[hsla(0,0%,100%,1)] md:leading-26 leading-18 text-8xl md:text-9xl drop-shadow-lg text-center frunchy whitespace-nowrap [@media(max-width:499px)]:top-9">
+<h1 className="absolute md:top-45 top-42 transform -translate-y-1/3 text-[hsla(0,0%,100%,1)] md:leading-26 leading-18 text-8xl md:text-9xl drop-shadow-lg text-center frunchy whitespace-nowrap [@media(max-width:499px)]:top-35">
   GOURMET <br /> ON WHEELS
 </h1>
 
