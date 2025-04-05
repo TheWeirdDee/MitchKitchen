@@ -33,7 +33,7 @@ const Home = () => {
     <img
   src={headerImage}
   alt="Gourmet Food"
-  className="max-w-full [max-height:60vh] md:max-h-[60vh] [@media(max-width:499px)]:max-h-[40vh] object-contain opacity-40 md:opacity-70"
+  className="max-w-full [max-height:60vh] md:max-h-[65vh] [@media(max-width:499px)]:max-h-[45vh] object-contain opacity-40 md:opacity-70"
 />
 
 

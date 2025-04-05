@@ -125,7 +125,7 @@ const Navbar = () => {
       </ul> 
       
       {/* Social Icons */}
-      <div className="absolute z-1 right-3 md:mt-11 mt-22 mr-2 flex flex-col space-y-4 text-2xl">
+      <div className="absolute z-1 right-[21px] md:mt-11 mt-22  flex flex-col space-y-4 text-2xl">
          
         <FaInstagram className="cursor-pointer hover:text-white" />
         <FaFacebook className="cursor-pointer hover:text-white" />

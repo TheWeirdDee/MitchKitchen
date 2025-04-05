@@ -8,10 +8,10 @@ const CustomerR = () => {
       data-aos="fade-up"
     >
       Customer <br /> Reviews
-      <span className="absolute md:left-70 left-50 top-10 md:top-15 transform -translate-y-1/2 w-1/2 md:w-2/2 h-1 bg-yellow-500 [@media(max-width:499px)]:left-52 [@media(max-width:499px)]:w-1/3 [@media(max-width:499px)]:top-13"></span>
+      <span className="absolute md:left-70 left-50 top-10 md:top-15 transform -translate-y-1/2 w-1/2 md:w-2/2 h-1 bg-yellow-500 [@media(max-width:499px)]:left-52 [@media(max-width:499px)]:w-1/3 [@media(max-width:499px)]:top-12"></span>
 
 
-      <span className="absolute md:right-70 right-50 top-10 md:top-15 transform -translate-y-1/2 w-1/2 md:w-2/2 h-1 bg-yellow-500 [@media(max-width:499px)]:right-52 [@media(max-width:499px)]:w-1/3 [@media(max-width:499px)]:top-13"></span>
+      <span className="absolute md:right-70 right-50 top-10 md:top-15 transform -translate-y-1/2 w-1/2 md:w-2/2 h-1 bg-yellow-500 [@media(max-width:499px)]:right-52 [@media(max-width:499px)]:w-1/3 [@media(max-width:499px)]:top-12"></span>
     </h2>
     </div>
   )
