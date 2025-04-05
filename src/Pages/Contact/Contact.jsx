@@ -12,21 +12,22 @@ const ContactUs = () => {
       <div className="grid md:grid-cols-2 gap-8 mt-1 max-w-5xl w-full">
         {/* Left Section */}
         <div className="flex flex-col gap-6 text-left md:pr-16">
-          <button className="bg-[#ce1126] playfair text-white  mb-5 py-2 px-8 rounded-md flex items-center gap-3 text-sm w-max">
+          <button className="bg-[#ce1126] chloe text-white tracking-wider leading-6 mb-5 py-1 px-9 rounded-md flex items-center gap-3 text-md w-max">
             <span className="mb-4">📅</span> BUY A TICKET TO OUR <br /> TASTING
             EVENTS
           </button>
-          <button className="bg-[#ce1126] text-white mb-8 py-3 Bona px-8 rounded-md font-bold flex items-center gap-3 text-sm w-max">
+          <button className="bg-[#ce1126] text-white mb-8 py-2 chloe tracking-widest leading-9 px-8 rounded-md font-bold flex items-center gap-3 text-md w-max">
             <span>📞</span> MAKE A RESERVATION
           </button>
-          <div className=" relative w-max mt-4">
-            <h1 className="md:text-7xl text-[#ce1126] playfair text-6xl sm:text-5xl font-extrabold mb-3">
-              CONTACT
-            </h1>
-            <h2 className="md:text-6xl text-[#ce1126] text-6xl sm:text-4xl font-bold playfair absolute left-1/2 transform -translate-x-1/2 top-full">
-              US
-            </h2>
-          </div>
+          <div className="relative w-max mt-4 flex md:block md:text-center">
+  <h1 className="md:text-8xl text-[#ce1126] frunchy text-7xl sm:text-7xl">
+    CONTACT
+  </h1>
+  <h2 className="relative left-4 bottom-3 md:text-8xl text-[#ce1126] text-7xl sm:text-7xl frunchy md:mt-0 mt-3">
+    US
+  </h2>
+</div>
+
         </div>
 
         {/* Right Section */}
