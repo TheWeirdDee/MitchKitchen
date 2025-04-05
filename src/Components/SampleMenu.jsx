@@ -17,8 +17,8 @@ perandory md:text-[75px] font-bold inline-block mb-8 mx-auto pb-2 relative"
         data-aos="fade-up"
       >
         SAMPLE MENU
-        <span className="absolute md:left-90 left-60 top-1/3 transform -translate-y-1/2 w-1/4 md:w-1/3 h-1 bg-yellow-500 [@media(max-width:499px)]:left-70"></span>
-        <span className="absolute md:right-90 right-60 top-1/3 transform -translate-y-1/2 w-1/3 md:w-1/2 h-1 bg-yellow-500"></span>
+        <span className="absolute md:left-90 left-60 top-1/3 transform -translate-y-1/2 w-1/4 md:w-1/3 h-1 bg-yellow-500 [@media(max-width:499px)]:left-65"></span>
+        <span className="absolute md:right-90 right-60 top-1/3 transform -translate-y-1/2 w-1/3 md:w-1/2 h-1 bg-yellow-500  [@media(max-width:499px)]:left-65"></span>
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center w-full max-w-4xl">
