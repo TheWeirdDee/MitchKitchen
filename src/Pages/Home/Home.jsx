@@ -26,20 +26,21 @@ const Home = () => {
       <div className="relative w-full bg-[#013220] flex flex-col items-center justify-center overflow-hidden">
   {/* Gold background wrapper */}
    
-  <div className="w-[30rem] sm:w-[35rem] md:w-[40rem] lg:w-[50rem] h-auto max-h-[30rem] mb-10 p-4 rounded-lg flex flex-col items-center bg-transparent md:bg-[#d3af379a] relative">  
+  <div className="w-[30rem] sm:w-[35rem] md:w-[40rem] lg:w-[45rem] h-auto max-h-[30rem] mb-10 p-4 rounded-4xl flex flex-col items-center bg-transparent md:bg-[#d3af379a] relative">  
  
 
     <div className="relative flex justify-center">
     <img
   src={headerImage}
   alt="Gourmet Food"
-  className="max-w-full [max-height:60vh] md:max-h-[65vh] [@media(max-width:499px)]:max-h-[40vh] object-contain opacity-40 md:opacity-90"
+  className="max-w-full [max-height:60vh] md:max-h-[60vh] [@media(max-width:499px)]:max-h-[40vh] object-contain opacity-40 md:opacity-70"
 />
 
 
-      <h1 className="absolute top-1/2 transform -translate-y-1/3 text-white text-6xl md:text-8xl font-bold drop-shadow-lg text-center TheSeason whitespace-nowrap">
+<h1 className="absolute md:top-45 top-43 transform -translate-y-1/3 text-[hsla(0,0%,100%,1)] md:leading-26 leading-18 text-8xl md:text-9xl drop-shadow-lg text-center frunchy whitespace-nowrap">
   GOURMET <br /> ON WHEELS
 </h1>
+
 {/* <h1 className="absolute top-1/3 transform -translate-y-1/9 mt-20 text-white text-6xl md:text-8xl font-bold drop-shadow-lg text-center TheSeason whitespace-nowrap">
   ON WHEELS
 </h1> */}
@@ -48,7 +49,7 @@ const Home = () => {
 
     {/* Centered Button */}
     <Link to="/about">
-  <button className="px-7 py-2 bg-[#CE1126] frunchy text-white mb-5 text-md font-semibold rounded-3xl hover:bg-yellow-700">
+  <button className="px-12 py-2 bg-[#CE1126] tracking-widest chloe text-white mb-7 mt-8 md:mt-0 text-xl rounded-3xl hover:bg-yellow-700">
     OUR STORY
   </button>
 </Link>

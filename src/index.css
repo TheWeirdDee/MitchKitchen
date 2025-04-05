@@ -2,6 +2,10 @@
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
 @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Playfair+Display:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Gravitas+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
 .slick-prev,
 .slick-next {
   z-index: 10;
@@ -10,38 +14,53 @@
 .slick-next:before {
   color: white;
 }
- 
 
 .TheSeason {
   font-family: "Playfair Display", serif;
 }
-@font-face {
-  font-family: 'MyCustomFont';
-  src: url('../assets/Fonts/chloe/chloe.otf') format('otf'),
-  url('../assets/Fonts/perandory/perandory.otf') format('otf'),
-       url('../assets/Fonts/frunchy/frunchy.ttf') format('ttf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 .playfair{
   font-family: "Playfair Display", serif;
 }
- 
-@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Gravitas+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-
 .Bona{
-  font-family: "Playfair Display", serif;
-   
+  font-family: "Playfair Display", serif; 
 }
 
+
+/* Define each font properly in @font-face */
+@font-face {
+  font-family: 'frunchy';
+  src: url('./assets/Fonts/frunchy/frunchy.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'chloe';
+  src: url('./assets/Fonts/chloe/chloe.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'perandory';
+  src: url('./assets/Fonts/perandory/perandory.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Font';
+  src: url('./assets/Fonts/Font.otf') format('opentype');
+}
+
+/* Usage in classes */
 .frunchy {
   font-family: 'frunchy', sans-serif;
 }
+
 .chloe {
   font-family: 'chloe', sans-serif;
 }
+
+.font {
+  font-family: 'Font', sans-serif;
+}
+
 .perandory {
   font-family: 'perandory', sans-serif;
 }
+

@@ -11,7 +11,7 @@ const ContactSection = () => {
       
       {/* Content */}
       <div className="relative text-center text-white px-6 py-8">
-        <h2 className="TheSeason text-5xl md:text-6xl font-bold leading-16">
+        <h2 className="chloe text-6xl md:text-6xl  leading-16">
           WE WOULD LOVE TO <br /> HEAR FROM YOU
         </h2>
         <Link to="/contact">

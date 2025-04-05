@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className=" bg-[#013220] text-[#D3AF37] frunchy px-6 md:px-16 py-4 flex justify-between items-center relative">
+    <nav className=" bg-[#013220] text-[#D3AF37] TheSeason px-6 md:px-16 py-4 flex justify-between items-center relative">
       {/* Logo */}
       
       <Link to="/">
@@ -24,7 +24,7 @@ const Navbar = () => {
 
 
       {/* Desktop Menu */}
-      <ul className="hidden md:flex space-x-8 text-sm uppercase">
+      <ul className="hidden md:flex space-x-8 text-md uppercase">
         <li>
           <NavLink 
             exact to="/" 
@@ -74,7 +74,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <ul
-        className={`fixed z-10 top-0 left-0 w-full pt-20 h-screen bg-[#013220] text-[#D3AF37] text-center text-lg transition-transform duration-500 ${
+        className={`fixed z-10 top-0 left-0 w-full pt-20 h-screen bg-[#013220] text-[#D3AF37] text-center text-lg TheSeason transition-transform duration-500 ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } md:hidden`}
       >
