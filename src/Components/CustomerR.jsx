@@ -2,9 +2,9 @@ import React from 'react'
 import '../index.css';
 const CustomerR = () => {
   return (
-    <div className="bg-[#013220] text-[#ce1126] py-12 px-6 md:px-16  flex flex-col justify-center items-center">
+    <div className="bg-[#013220] text-[#ce1126] md:py-13 py-10 px-6 md:px-16 flex flex-col justify-center items-center">
     <h2
-      className="perandory text-center text-5xl md:text-[65px] tracking-widest md:leading-15 leading-10 font-bold inline-block mb-8 mx-auto pb-2 relative"
+      className="perandory text-center text-5xl md:text-[65px] tracking-widest md:leading-15 leading-10 font-bold inline-block mb-0 mx-auto pb-0 relative"
       data-aos="fade-up"
     >
       Customer <br /> Reviews
