@@ -1,12 +1,12 @@
 import React from "react";
-import SampleM from "../assets/SampleM.png";
+import Samplemenu from "../assets/Samplemenu.png";
 
 export default function SampleMenu() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-4 space-y-6">
       <div
         className="w-full max-w-6xl bg-no-repeat bg-cover bg-center h-[520px] md:h-[550px] lg:h-[500px] relative flex items-center justify-center"
-        style={{ backgroundImage: `url(${SampleM})` }}
+        style={{ backgroundImage: `url(${Samplemenu})` }}
       >
         <div className="absolute inset-0 flex flex-col items-center justify-center px-4 md:px-12 text-black font-serif text-center">
           <h1 className="text-3xl sm:text-4xl md:text-8xl frunchy text-red-600 tracking-widest mb-6">
