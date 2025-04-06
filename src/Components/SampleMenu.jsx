@@ -9,7 +9,7 @@ export default function SampleMenu() {
         style={{ backgroundImage: `url(${Samplemenu})` }}
       >
         <div className="relative inset-0 flex flex-col items-center justify-center px-4 md:px-12 text-black perandory text-center md:translate-y-[-40px] lg:translate-y-[-60px]">
-  <h1 className="text-7xl md:mt-10 lg:mt-20 sm:text-5xl md:text-[100px] lg:text-[150px] font-bold frunchy text-red-600 tracking-widest [@media(max-width:499px)]:text-5xl [@media(max-width:499px)]:mb-4">
+  <h1 className="text-7xl md:mt-10 lg:mt-20 sm:text-5xl md:text-[100px] lg:text-[150px] font-bold frunchy text-red-600 tracking-widest [@media(max-width:499px)]:text-5xl [@media(max-width:499px)]:mb-40">
     SAMPLE MENU
   </h1>
 
