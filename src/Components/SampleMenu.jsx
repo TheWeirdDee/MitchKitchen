@@ -1,5 +1,6 @@
 import React from "react";
 import Samplemenu from "../assets/Samplemenu.png";
+import { Link } from "react-router-dom";
 
 export default function SampleMenu() {
   return (
@@ -59,9 +60,11 @@ export default function SampleMenu() {
       </div>
 
       {/* Button */}
-      <button className="mt-4 px-6 py-3 bg-[#d5b981] text-white font-semibold rounded-xl shadow-md hover:bg-[#c4a76e] transition-all">
-        View Full Menu
-      </button>
+      <Link to="/contact">
+        <button className="px-12 py-2 bg-[#CE1126] tracking-widest chloe text-white mb-8 mt-8 md:mt-10 text-xl rounded-3xl hover:bg-yellow-700">
+          CONTACT US
+        </button>
+      </Link>
     </div>
   );
 }
