@@ -35,16 +35,7 @@ const Navbar = () => {
             Home
           </NavLink>
         </li>
-        <li>
-          <NavLink 
-            exact to="/gallery" 
-            className={({ isActive }) => 
-              `navLink hover:text-white ${isActive ? "border-b-2 border-white" : ""}`
-            }
-          >
-            Gallery
-          </NavLink>
-        </li>
+        
         <li>
           <NavLink 
             exact to="/about" 
@@ -89,17 +80,7 @@ const Navbar = () => {
             Home
           </NavLink>
         </li>
-        <li className="py-3">
-          <NavLink 
-            exact to="/gallery" 
-            className={({ isActive }) => 
-              `navLink hover:text-white ${isActive ? "border-b-2 border-white" : ""}`
-            }
-            onClick={handleNavLinkClick}
-          >
-            Gallery
-          </NavLink>
-        </li>
+         
         <li className="py-3">
           <NavLink 
             exact to="/about" 

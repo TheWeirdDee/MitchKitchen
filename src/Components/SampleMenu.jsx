@@ -12,7 +12,7 @@ export default function SampleMenu() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center [@media(max-width:1060px)]:px-0 px-10 md-mr-0 ml-0 space-y-6">
       <div
-        className="w-full max-w-6xl bg-no-repeat mt-8 bg-cover bg-center h-[790px] md:h-[550px] lg:h-[550px] relative flex items-center justify-center"
+        className="w-full max-w-6xl bg-no-repeat mt-8 bg-cover bg-center h-[850px] md:h-[550px] lg:h-[550px] relative flex items-center justify-center"
         style={{ backgroundImage: `url(${Samplemenu})` }}
         data-aos="fade-in"
       >
@@ -30,7 +30,7 @@ export default function SampleMenu() {
           >
             {/* STARTER */}
             <div
-              className="mt-5 flex flex-col items-center sm:items-start"
+              className="flex flex-col items-center sm:items-start"
               data-aos="fade-up"
               data-aos-delay="300"
             >
@@ -80,7 +80,7 @@ export default function SampleMenu() {
                 data-aos="fade-up"
                 data-aos-delay="800"
               >
-                Guinness Punch Ice / Cream, with Chocolate Cake
+                Guinness Punch Ice /  <br /> Cream <br /> with Chocolate Cake
               </p>
             </div>
           </div>
