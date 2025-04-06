@@ -1,6 +1,6 @@
 import React from "react";
 import Getin from "../assets/Getin.png";
-
+import { Link } from "react-router-dom";
 export default function SampleMenu() {
   return (
     <div className="  flex flex-col items-center justify-center md:px-10 px-0 md:mt-15 mt-10">
@@ -9,9 +9,11 @@ export default function SampleMenu() {
         style={{ backgroundImage: `url(${Getin})` }}
       ></div>
 
-      <button className="mb-10 mt-5 px-6 py-3 bg-[#d5b981] text-white font-semibold rounded-xl shadow-md hover:bg-[#c4a76e] transition-all duration-300">
-        Contact Us
-      </button>
+<Link to="/contact">
+  <button className="px-12 py-2 bg-[#CE1126] tracking-widest chloe text-white mb-7 mt-8 md:mt-0 text-xl rounded-3xl hover:bg-yellow-700">
+   CONTACT US
+  </button>
+</Link>
     </div>
   );
 }
