@@ -10,7 +10,7 @@ export default function SampleMenu() {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center [@media(max-width:1060px)]:px-0 px-10 md-mr-0 ml-5 space-y-6">
+    <div className="min-h-screen flex flex-col items-center justify-center [@media(max-width:1060px)]:px-0 px-10 md-mr-0 ml-0 space-y-6">
       <div
         className="w-full max-w-6xl bg-no-repeat mt-8 bg-cover bg-center h-[790px] md:h-[550px] lg:h-[550px] relative flex items-center justify-center"
         style={{ backgroundImage: `url(${Samplemenu})` }}
