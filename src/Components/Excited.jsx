@@ -1,6 +1,6 @@
 import React from "react";
 import "../index.css"
- 
+import { Link } from "react-router-dom";
 import sectionOne from "../assets/sectionOne.jpg";
 
 const ContactSection = () => {
@@ -14,9 +14,11 @@ const ContactSection = () => {
         <h2 className="text-7xl tracking-widest md:leading-25 md:mt-10 mt-5 leading-18 perandory md:text-8xl">
           HAVE WE GOT YOU <br /> EXCITED?
         </h2>
+        <Link to="/contact">
         <button className="mt-10 bg-[#ce1126] text-white text-lg md:text-base py-1 px-5 md:px-10 rounded-full chloe tracking-widest leading-8 hover:bg-[#d3af37] transition duration-300">
          SEND US A MESSAGE
         </button>
+      </Link>
       </div>
     </div>
   );

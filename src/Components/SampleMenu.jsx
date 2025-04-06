@@ -26,7 +26,7 @@ export default function SampleMenu() {
           </h1>
 
           <div
-            className="lg:translate-y-[-30px] lg:mt-20 border-2 grid grid-cols-1 sm:grid-cols-2 sm:gap-4 md:mt-10  md:grid-cols-3 gap-6 text-base sm:text-lg w-full max-w-4xl "
+            className="lg:translate-y-[-30px] lg:mt-20   grid grid-cols-1 sm:grid-cols-2 sm:gap-4 md:mt-10  md:grid-cols-3 gap-6 text-base sm:text-lg w-full max-w-4xl "
           >
             {/* STARTER */}
             <div
@@ -76,7 +76,7 @@ export default function SampleMenu() {
             >
               <h2 className="font-bold text-3xl mb-6 [@media(max-width:699px)]:mt-5">DESSERTS</h2>
              <p
-                className="text-left sm:text-left text-xl tracking-widest [@media(max-width:699px)]:mr-22"
+                className="text-left sm:text-left text-xl tracking-widest [@media(max-width:699px)]:mr-25"
                 data-aos="fade-up"
                 data-aos-delay="600"
               >
