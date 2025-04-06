@@ -1,72 +1,49 @@
-import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import "../index.css"
+import React from "react";
+import SampleM from "../assets/SampleM.png";
 
 export default function SampleMenu() {
-  useEffect(() => {
-    AOS.init({ duration: 1000, easing: "ease-in-out", once: true });
-  }, []);
-
   return (
-    <div className="bg-[#013220] text-[#ce1126] py-12 px-6 md:px-16  flex flex-col justify-center items-center">
-      <h2
-        className="text-center text-[50px] 
-perandory md:text-[75px] font-bold inline-block mb-8 mx-auto pb-2 relative"
-        data-aos="fade-up"
+    <div className="min-h-screen flex flex-col items-center justify-center p-4 space-y-6">
+      <div
+        className="w-full max-w-6xl bg-no-repeat bg-cover bg-center h-[520px] md:h-[550px] lg:h-[500px] relative flex items-center justify-center"
+        style={{ backgroundImage: `url(${SampleM})` }}
       >
-        SAMPLE MENU
-        <span className="absolute md:left-90 left-60 top-1/3 transform -translate-y-1/2 w-1/4 md:w-1/3 h-1 bg-yellow-500 [@media(max-width:499px)]:left-68"></span>
-        <span className="absolute md:right-90 right-60 top-1/3 transform -translate-y-1/2 w-1/3 md:w-1/2 h-1 bg-yellow-500  [@media(max-width:499px)]:right-68"></span>
-      </h2>
-
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center w-full max-w-4xl">
-        {/* Starter Section */}
-        <div data-aos="fade-up">
-           
-          <h3 className="playfair text-3xl md:text-3xl font-bold text-[#d3af37] mt-5">
-            STARTER
-          </h3>
-          
-          <p className="text-xl chloe tracking-widest leading-7 text-white mt-3">
-           Beef / Chicken Soup <br /> with a choice of chicken / <br /> beef / Vegetable patty.
-          </p>
-        </div>
-
-        {/* Main Course Section */}
-        <div data-aos="fade-up" data-aos-delay="200">
-           
-          <h3 className="playfair text-3xl md:text-3xl font-bold text-[#d3af37] mt-8">
-            MAIN
-          </h3>
-          
-          <p className="text-xl chloe tracking-widest leading-7 text-white mt-3">
-            Jerk Meat Platter <br /> with a choice of plain rice / rice & peas / salad.
-          </p>
-        </div>
-
-        {/* Dessert Section */}
-        <div data-aos="fade-up" data-aos-delay="400">
-           
-          <h3 className="playfair text-3xl md:text-3xl font-bold text-[#d3af37] mt-8">
-            DESSERTS
-          </h3>
-           
-          <p className="text-xl chloe tracking-widest leading-7 text-white mt-3">
-             Guinness Punch Ice Cream <br /> with chocolate cake
-          </p>
+        <div className="absolute inset-0 flex flex-col items-center justify-center px-4 md:px-12 text-black font-serif text-center">
+          <h1 className="text-3xl sm:text-4xl md:text-8xl frunchy text-red-600 tracking-widest mb-6">
+            SAMPLE MENU
+          </h1>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-base sm:text-lg">
+            <div>
+              <h2 className="font-bold text-xl mb-2">STARTER</h2>
+              <p>
+                Beef / Chicken Soup <br />
+                with a choice of <br />
+                Chicken / Beef / <br />
+                Vegetable Patty
+              </p>
+            </div>
+            <div className="md:border-x-2 border-dotted border-[#d5b981] px-4">
+              <h2 className="font-bold text-xl mb-2">MAIN</h2>
+              <p>Irish Meat Platter</p>
+              <p>with a choice of</p>
+              <p>Main Rice / Rice &amp;</p>
+              <p>Peas / Salad</p>
+            </div>
+            <div>
+              <h2 className="font-bold text-xl mb-2">DESSERTS</h2>
+              <p>Guinness Punch Ice</p>
+              <p>Cream</p>
+              <p>with Chocolate</p>
+              <p>Cake</p>
+            </div>
+          </div>
         </div>
       </div>
 
       {/* Button */}
-      <div className="mt-8 text-center" data-aos="fade-up" data-aos-delay="600">
-      <Link to="/contact">
-  <button className="bg-[#ce1126] hover:bg-yellow-700 text-white font-bold py-2 px-8 rounded-full shadow-lg text-xl chloe chloe tracking-widest leading-7">
-    CONTACT US
-  </button>
-</Link>
-      </div>
+      <button className="mt-4 px-6 py-3 bg-[#d5b981] text-white font-semibold rounded-xl shadow-md hover:bg-[#c4a76e] transition-all">
+        View Full Menu
+      </button>
     </div>
   );
 }

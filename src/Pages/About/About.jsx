@@ -4,6 +4,7 @@ import abouttwo from "../../assets/abouttwo.png";
 import aboutthree from "../../assets/aboutthree.png";
 import aboutfour from "../../assets/aboutfour.png";
 import aboutfive from "../../assets/aboutfive.png";
+import OurStory  from "../../assets/OurStory.png";
 import "./About.css";
 import "../../index.css";
 import AOS from "aos";
@@ -20,24 +21,30 @@ const About = () => {
     <div>
       <div className="bg-[#013220] min-h-screen flex items-center justify-center p-10 relative">
         {/*  Text */}
-        <h1
-          className="TheSeason about-heading h absolute md:left-1/2 left-1/8 sm:left-1/7 top-70 -translate-x-1/2 text-[50px] sm:text-[60px] md:text-[10px] text-[#ce1126] font-bold uppercase tracking-wide rotate-90"
-          data-aos="fade-down"
-          style={{
-            position: "absolute",
-            animation: "scrollUpDown 8s ease-in-out infinite",
-          }}
-        >
-          OUR STORY
-        </h1>
+        <div className="about-heading absolute   md:left-1/2 left-1/8 sm:left-1/7 md:top-2 top-2 -translate-x-1/2">
+  <img
+    src={OurStory}
+    alt="Roots"
+    className="w-100 md:h-300 h-200 object-contain"
+    data-aos="fade-down"
+    style={{
+      // position: "absolute",
+      animation: "scrollUpDown 5s ease-in-out infinite",
+    }}
+  />
+</div>
 
-        <style>{`
-        @keyframes scrollUpDown {
-          50% { top: 10vh; }
-          50% { top: 80vh; }
-          100% { top: 50vh; }
-        }
-      `}</style>
+<style>{`
+  @keyframes scrollUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(150px);
+    }
+  }
+`}</style> 
+
 
         {/* Content Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-35 relative z-1 md:left-5 left-30">

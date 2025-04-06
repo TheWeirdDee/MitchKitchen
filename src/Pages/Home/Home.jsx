@@ -8,11 +8,12 @@ import { Link } from "react-router-dom";
 import headerImage from "../../assets/headerImage.png";
 import SampleMenu from "../../Components/SampleMenu";
 import EventCard from "../../Components/EventCard";
-import ContactSection from "../../Components/ContactSection";
+// import ContactSection from "../../Components/ContactSection";
 import CustomerReview from "../../Components/CustomerReview";
-import sectionOne from "../../assets/sectionOne.jpg";
+import OurStory from "../../Components/OurStory";
 import CustomerR from "../../Components/CustomerR";
-import menuimg from "../../assets/menuimg.jpg";
+import Getin from "../../Components/Getin";
+ 
  
  
 const Home = () => {
@@ -41,16 +42,12 @@ const Home = () => {
   GOURMET <br /> ON WHEELS
 </h1>
 
-{/* <h1 className="absolute top-1/3 transform -translate-y-1/9 mt-20 text-white text-6xl md:text-8xl font-bold drop-shadow-lg text-center TheSeason whitespace-nowrap">
-  ON WHEELS
-</h1> */}
-
     </div>
 
     {/* Centered Button */}
-    <Link to="/about">
+    <Link to="/contact">
   <button className="px-12 py-2 bg-[#CE1126] tracking-widest chloe text-white mb-7 mt-8 md:mt-0 text-xl rounded-3xl hover:bg-yellow-700">
-    OUR STORY
+    BOOK A TASTING
   </button>
 </Link>
   </div>
@@ -63,27 +60,20 @@ const Home = () => {
 
 
 
-      <div className="relative w-full max-h-[300px]">
-        <img
-          src={sectionOne}
-          alt="Sample Image"
-          className="w-full max-h-[300px] object-cover"
-        />
-        <div className="absolute inset-0 bg-black opacity-20"></div>
-      </div>
+       <OurStory />
 
       <div>
         <SampleMenu />
       </div>
 
-      <div className="relative w-full max-h-[300px]">
+      {/* <div className="relative w-full max-h-[300px]">
         <img
           src={menuimg}
           alt="Menu Img"
           className="w-full max-h-[300px] object-cover"
         />
         <div className="absolute inset-0 bg-black opacity-20"></div>
-      </div>
+      </div> */}
       <div>
         <CustomerR />
       </div>
@@ -91,15 +81,28 @@ const Home = () => {
         <CustomerReview />
       </div>
 
+      {/* <div className="relative w-full max-h-[300px] sm:max-h-[650px]">
+  <img
+    src={GetIn}
+    alt="Menu Img"
+    className="w-full max-h-[300px] sm:max-h-[580px] object-cover"
+  />
+  <div className="absolute inset-0 bg-black opacity-20"></div>
+</div> */}
+<Getin />
+ 
+
+
+
+
+
+
+
+
+     
+
        
 
-      <div>
-        <EventCard />
-      </div>
-
-      <div>
-        <ContactSection />
-      </div>
     </div>
   );
 };

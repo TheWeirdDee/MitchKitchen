@@ -1,45 +1,50 @@
 @media (min-width: 765px) {
     .about-heading {
-      font-size: 55px;
+      width: 230px;
+      position: absolute;
+      left: 53%;
+      top: -100px;
     }
     .content-right{
         position: relative;
-      left: 25px;
+      left: 70px;
     }
     .content-left{
       position: relative;
-      left: 50px;
+      left: -20px;
     }
   }
-  @media (min-width: 1000px) {
+   @media (min-width: 1000px) {
     .about-heading {
-      font-size: 60px; 
+      width: 240px; 
+      position: absolute;
+      left: 50%;
+      top: -90px;
     }
     .content-right{
         position: relative;
-      left: 30px;
+      left: 80px;
     }
     .content-left{
       position: relative;
-      left: 0px;
+      left: -90px;
     }
-  }
-  @media (min-width: 1200px) {
+  } 
+   @media (min-width: 1200px) {
     .about-heading {
       font-size: 70px;
-       /* line-height: 0; */
-       letter-spacing: 30px;
+        
     }
     .content-right{
         position: relative;
-      left: 120px;
+      left: 150px;
        
     }
     .content-left{
       position: relative;
       left: -150px;
     }
-  }
+  } 
 
 
 
@@ -58,5 +63,6 @@
   html, body {
     overflow-x: hidden;
     width: 100vw;
+     
   }
   

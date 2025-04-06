@@ -64,3 +64,8 @@
   font-family: 'perandory', sans-serif;
 }
 
+html, body {
+  overflow-x: hidden;
+  width: 100vw;
+  background-color:#013220;
+}
