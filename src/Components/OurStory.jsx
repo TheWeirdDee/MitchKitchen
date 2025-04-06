@@ -22,7 +22,7 @@ const OurStory = () => {
           We are not just a food business, we are an experience! Bringing fine dining to you wherever you are, whether a festival or a private catering event, Mitch Kitchen gives you five star in a way you have never experienced before!
         </p>
         <p className="text-lg relative top-7  md:mb-10 mb-0 font-medium">
-          This is not just a bluff either, we truly create once in a lifetime experiences, with menus that never change with every event we cater, you never get the same menu twice!
+        This is not a bluff! We truly craft unforgettable experiences with menus tailored uniquely for each event. You never get the same menu twice!
         </p>
         <div className="flex justify-center">
            <Link to="/about">

@@ -26,7 +26,7 @@ export default function SampleMenu() {
           </h1>
 
           <div
-            className="lg:translate-y-[-20px] lg:mt-20 grid grid-cols-1 sm:grid-cols-2 sm:gap-4 md:mt-10  md:grid-cols-3 gap-6 text-base sm:text-lg w-full max-w-4xl "
+            className="lg:translate-y-[-30px] lg:mt-20 border-2 grid grid-cols-1 sm:grid-cols-2 sm:gap-4 md:mt-10  md:grid-cols-3 gap-6 text-base sm:text-lg w-full max-w-4xl "
           >
             {/* STARTER */}
             <div
@@ -70,17 +70,22 @@ export default function SampleMenu() {
 
             {/* DESSERTS */}
             <div
-              className="sm:col-span-2 sm:mx-auto md:col-span-1 flex flex-col items-center"
+              className="sm:col-span-2 sm:mx-auto md:col-span-1 flex flex-col items-center sm:items-start"
               data-aos="fade-up"
               data-aos-delay="700"
             >
               <h2 className="font-bold text-3xl mb-6 [@media(max-width:699px)]:mt-5">DESSERTS</h2>
-              <p
-                className="text-left sm:text-left text-xl tracking-widest"
+             <p
+                className="text-left sm:text-left text-xl tracking-widest [@media(max-width:699px)]:mr-22"
                 data-aos="fade-up"
-                data-aos-delay="800"
+                data-aos-delay="600"
               >
-                Guinness Punch Ice /  <br /> Cream <br /> with Chocolate Cake
+                Guinness Punch Ice / 
+                 <br />
+                  Cream
+                  <br />  
+                  with Chocolate Cake
+                
               </p>
             </div>
           </div>
