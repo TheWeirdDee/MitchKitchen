@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 
 import headerImage from "../../assets/headerImage.png";
 import SampleMenu from "../../Components/SampleMenu";
-import EventCard from "../../Components/EventCard";
 // import ContactSection from "../../Components/ContactSection";
 import CustomerReview from "../../Components/CustomerReview";
 import OurStory from "../../Components/OurStory";
@@ -56,51 +55,20 @@ const Home = () => {
 
 
 
-
-
-
-
        <OurStory />
 
       <div>
         <SampleMenu />
       </div>
 
-      {/* <div className="relative w-full max-h-[300px]">
-        <img
-          src={menuimg}
-          alt="Menu Img"
-          className="w-full max-h-[300px] object-cover"
-        />
-        <div className="absolute inset-0 bg-black opacity-20"></div>
-      </div> */}
       <div>
         <CustomerR />
       </div>
       <div>
         <CustomerReview />
       </div>
-
-      {/* <div className="relative w-full max-h-[300px] sm:max-h-[650px]">
-  <img
-    src={GetIn}
-    alt="Menu Img"
-    className="w-full max-h-[300px] sm:max-h-[580px] object-cover"
-  />
-  <div className="absolute inset-0 bg-black opacity-20"></div>
-</div> */}
-<Getin />
  
-
-
-
-
-
-
-
-
-     
-
+<Getin />
        
 
     </div>
